@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "d106b95a-63b4-4591-bfab-453814f0149f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"video-container\"><video width=\"100%\" poster=\"http:\/\/content.bitsontherun.com\/thumbs\/bkaovAYt-320.jpg\" autoplay loop muted=\"\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08b6d40aa6304cd69c3c2a3e4c00ddd6.mp4\">\n        <p class=\"warning\">Your browser does not support HTML5 video.<\/p>\n<\/video><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Awaken your best<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No one day is like another. WHY SHOULD YOU ALWAYS SLEEP ON THE SAME MATTRESS?<br\/>A new day is a challange and the new EMMA Collection offers the idel solution that adapts to all your sleep comfort needs<\/p><p><strong>Every night anew! <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_7.png",
+            "title": "PERSONALIZED ADAPTABILITY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_6.png",
+            "title": "BEST IN CLASS QUALITY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_5.png",
+            "title": "ELECTRONIC - FREE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-1",
+        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-0",
+        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home_shift.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2afe831c-8a02-4d4a-9094-40c704e3ff88": {
+      "type": "custom-bg-with-simple-content",
+      "blocks": {
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-0",
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-1",
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "eeb635d8-d9cf-43d8-bfc8-083af72dfc00": {
+      "type": "collage",
+      "blocks": {
+        "template--17146360791318__eeb635d8-d9cf-43d8-bfc8-083af72dfc00-167031972328c5a219-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--17146360791318__eeb635d8-d9cf-43d8-bfc8-083af72dfc00-167031972328c5a219-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--17146360791318__eeb635d8-d9cf-43d8-bfc8-083af72dfc00-167031972328c5a219-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17146360791318__eeb635d8-d9cf-43d8-bfc8-083af72dfc00-167031972328c5a219-0",
+        "template--17146360791318__eeb635d8-d9cf-43d8-bfc8-083af72dfc00-167031972328c5a219-1",
+        "template--17146360791318__eeb635d8-d9cf-43d8-bfc8-083af72dfc00-167031972328c5a219-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "d106b95a-63b4-4591-bfab-453814f0149f",
+    "rich_text",
+    "multicolumn",
+    "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c",
+    "2afe831c-8a02-4d4a-9094-40c704e3ff88",
+    "eeb635d8-d9cf-43d8-bfc8-083af72dfc00"
+  ]
+}

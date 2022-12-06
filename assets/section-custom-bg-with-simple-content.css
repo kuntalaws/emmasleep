@@ -1,0 +1,105 @@
+.custom-bg-with-simple-content {
+  z-index: 1;
+  background-image: url(https://cdn.shopify.com/s/files/1/0555/7010/4598/t/4/assets/awaken.jpg);
+  margin-top: -1px;
+}
+
+.custom-bg-with-simple-content__wrapper {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 4rem / var(--font-body-scale));
+}
+
+.custom-bg-with-simple-content:not(.custom-bg-with-simple-content--full-width) .custom-bg-with-simple-content__wrapper {
+  margin: auto;
+  width: calc(100% - 8rem / var(--font-body-scale));
+}
+
+.custom-bg-with-simple-content__blocks {
+  width: 100%;
+}
+.custom-bg-with-simple-content__wrapper .custom-bg-with-simple-content__heading{
+  font-size: 27px;
+  line-height: 32.5px;
+  font-weight: 700;
+  color: #ffddb6;
+  font-family: 'Playfair Display';
+  margin: 0;
+  padding-bottom: 8px;
+}
+.custom-bg-with-simple-content__wrapper .custom-bg-with-simple-content__text p{
+  color: #ffffff;
+}
+.custom-bg-with-simple-content__wrapper .custom-bg-with-simple-content__text p strong{
+  color: #ffddb6;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+}
+@media screen and (min-width: 750px) {
+  .custom-bg-with-simple-content__wrapper {
+    width: 100%;
+  }
+
+  .custom-bg-with-simple-content__wrapper--left {
+    justify-content: flex-start;
+  }
+
+  .custom-bg-with-simple-content__wrapper--right {
+    justify-content: flex-end;
+  }
+
+  .custom-bg-with-simple-content__blocks {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .custom-bg-with-simple-content__blocks {
+    max-width: 78rem;
+  }
+}
+
+.custom-bg-with-simple-content__blocks * {
+  overflow-wrap: break-word;
+}
+
+.custom-bg-with-simple-content__blocks > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.custom-bg-with-simple-content__blocks > * + * {
+  margin-top: 2rem;
+}
+
+.custom-bg-with-simple-content__blocks > * + a {
+  margin-top: 3rem;
+}
+
+.custom-bg-with-simple-content__buttons {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 45rem;
+  word-break: break-word;
+}
+
+.custom-bg-with-simple-content__buttons--multiple > * {
+  flex-grow: 1;
+  min-width: 22rem;
+}
+
+.custom-bg-with-simple-content__buttons + .custom-bg-with-simple-content__buttons {
+  margin-top: 1rem;
+}
+
+.custom-bg-with-simple-content__blocks.left .custom-bg-with-simple-content__buttons {
+  justify-content: flex-start;
+}
+
+.custom-bg-with-simple-content__blocks.right .custom-bg-with-simple-content__buttons {
+  justify-content: flex-end;
+}
