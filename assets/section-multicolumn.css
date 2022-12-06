@@ -12,7 +12,9 @@
 .multicolumn .page-width{
   max-width: 1040px;
 }
-
+.multicolumn.color-inverse{
+  background-color: #c7c8c3;
+}
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {
     margin-bottom: 3rem;
@@ -145,6 +147,10 @@
   font-size: 15px;
   line-height: 18px;
   font-weight: 600;
+}
+.multicolumn.color-inverse .multicolumn-card__info h3{
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .background-none .multicolumn-card__info {
