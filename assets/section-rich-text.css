@@ -16,7 +16,22 @@
 .rich-text__blocks {
   width: 100%;
 }
-
+.rich-text h2.rich-text__heading{
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+.rich-text p{
+  margin: 0;
+  margin-bottom: 12px;
+}
+.rich-text p strong{
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+}
 @media screen and (min-width: 750px) {
   .rich-text__wrapper {
     width: 100%;
