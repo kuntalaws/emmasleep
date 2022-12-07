@@ -77,9 +77,9 @@
         "enable_sticky_info": true,
         "media_position": "left",
         "gallery_layout": "stacked",
-        "media_size": "large",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "media_size": "medium",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
