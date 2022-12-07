@@ -145,12 +145,50 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "c4bf1dc5-f043-415d-b39c-04acbd29287c": {
+      "type": "custom-bg-with-simple-content",
+      "blocks": {
+        "template--17166328889622__c4bf1dc5-f043-415d-b39c-04acbd29287c-1670426442d8437c40-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Better sleep. Revolutionary easy<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17166328889622__c4bf1dc5-f043-415d-b39c-04acbd29287c-1670426442d8437c40-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Good sleep is gold. A new day is a new challenge, and the new EMMA Shift Mattress Collection offers the ideal solution.<br\/>With a simple push of a button, It adapts to all your sleep comfort needs<br\/><br\/><\/p>"
+          }
+        },
+        "572fbd7d-c30b-4ef8-b173-8c00ce570664": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Shift the button!<\/strong> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17166328889622__c4bf1dc5-f043-415d-b39c-04acbd29287c-1670426442d8437c40-0",
+        "template--17166328889622__c4bf1dc5-f043-415d-b39c-04acbd29287c-1670426442d8437c40-1",
+        "572fbd7d-c30b-4ef8-b173-8c00ce570664"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "d106b95a-63b4-4591-bfab-453814f0149f",
     "2afe831c-8a02-4d4a-9094-40c704e3ff88",
     "multicolumn",
-    "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c"
+    "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c",
+    "c4bf1dc5-f043-415d-b39c-04acbd29287c"
   ]
 }
