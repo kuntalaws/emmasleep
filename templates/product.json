@@ -53,13 +53,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "b839a374-2539-49cd-a9c9-547daf1cf0bc": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.title }}{{ product.vendor }}",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -71,8 +64,7 @@
         "price",
         "buy_buttons",
         "description",
-        "share",
-        "b839a374-2539-49cd-a9c9-547daf1cf0bc"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
