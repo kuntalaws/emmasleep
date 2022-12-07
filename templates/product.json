@@ -57,7 +57,7 @@
         "b839a374-2539-49cd-a9c9-547daf1cf0bc": {
           "type": "text",
           "settings": {
-            "text": "{{ product.title }}",
+            "text": "{{ product.title }}{{ product.vendor }}",
             "text_style": "body"
           }
         }
