@@ -2962,3 +2962,11 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+.video-container{
+  width: 100%;
+  display: block;
+}
+.video-container video{
+  display: block;
+  width: 100%;
+}
