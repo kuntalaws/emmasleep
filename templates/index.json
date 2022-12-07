@@ -15,28 +15,35 @@
         "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Awaken your best<\/p>",
             "heading_size": "h1"
           }
         },
         "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>No one day is like another. WHY SHOULD YOU ALWAYS SLEEP ON THE SAME MATTRESS?<br\/>A new day is a challange and the new EMMA Collection offers the idel solution that adapts to all your sleep comfort needs<\/p>"
+          }
+        },
+        "7aa80370-b596-4927-93dc-f9c9df189b0a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Every night anew! <\/strong><\/p>"
           }
         }
       },
       "block_order": [
         "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-0",
-        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-1"
+        "template--17146360791318__2afe831c-8a02-4d4a-9094-40c704e3ff88-1670263098d68f1242-1",
+        "7aa80370-b596-4927-93dc-f9c9df189b0a"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "accent-1",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "multicolumn": {
