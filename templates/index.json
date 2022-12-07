@@ -98,8 +98,8 @@
         "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c": {
