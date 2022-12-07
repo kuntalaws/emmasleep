@@ -277,7 +277,7 @@
         "image": "shopify:\/\/shop_images\/find_2.jpg",
         "image_2": "shopify:\/\/shop_images\/find_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": true,
