@@ -11,9 +11,9 @@
     "19a02a56-129d-4e65-a87e-ad71c1bb9443": {
       "type": "image-banner",
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/find.jpg",
+        "image": "shopify:\/\/shop_images\/find.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
