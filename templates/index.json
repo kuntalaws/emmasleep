@@ -238,6 +238,55 @@
         "padding_top": 24,
         "padding_bottom": 24
       }
+    },
+    "b7314bd7-e11d-4b13-8c00-653ec7d95591": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-0",
+        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-1",
+        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/find_2.jpg",
+        "image_2": "shopify:\/\/shop_images\/find_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -246,6 +295,7 @@
     "multicolumn",
     "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
-    "dd819118-aa34-4b45-b632-978aedc5148f"
+    "dd819118-aa34-4b45-b632-978aedc5148f",
+    "b7314bd7-e11d-4b13-8c00-653ec7d95591"
   ]
 }
