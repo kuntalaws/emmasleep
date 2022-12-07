@@ -1,1 +1,46 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "67b42188-3999-449b-8a38-6d727231666b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17166328725782__67b42188-3999-449b-8a38-6d727231666b-16704168898f9bdc3e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Legal Notice<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17166328725782__67b42188-3999-449b-8a38-6d727231666b-16704168898f9bdc3e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Emma Sleep GmbH<br\/>Wilhelm-Leuschner-Str. 78<br\/>60329 Frankfurt am Main<br\/>Germany<br\/><br\/>Web: team.emma-sleep.com<br\/>E-Mail: info@emma-sleep.com<br\/><br\/>Press Enquiries: press@emma-sleep.com<br\/><br\/>Managing Directors: Manuel Müller, Dr. Dennis Schmoltzi<br\/><br\/>Responsible in terms of law: Manuel Müller, Dr. Dennis Schmoltzi<br\/>VAT-ID: DE290850204<br\/>Place of registration: District Court Frankfurt am Main<br\/>HRB Number: 101705<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17166328725782__67b42188-3999-449b-8a38-6d727231666b-16704168898f9bdc3e-0",
+        "template--17166328725782__67b42188-3999-449b-8a38-6d727231666b-16704168898f9bdc3e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "67b42188-3999-449b-8a38-6d727231666b"
+  ]
+}
