@@ -182,6 +182,62 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "dd819118-aa34-4b45-b632-978aedc5148f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17166328889622__dd819118-aa34-4b45-b632-978aedc5148f-16704267605c6980bb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_2_2x_3db6fa6e-5f65-4c36-9f88-7fb89787353f.png",
+            "title": "GRAPHITE",
+            "text": "<p>Graphite-infused Visco foam features good heat conductivity, keeping the body cool at night.<br\/>The layer is also highly pressure-relieving for great adaptable comfort.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17166328889622__dd819118-aa34-4b45-b632-978aedc5148f-16704267605c6980bb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_3_2x_5efbbbbb-a8d6-45f7-aa93-e1182cb354a9.png",
+            "title": "PURLUX",
+            "text": "<p>Ultrasoft foam layer that creates a “hugging” cloud lying feel while providing excellent spinal support at the same time. Air channels maximize and increase airflow inside the mattress, achieving breathability. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17166328889622__dd819118-aa34-4b45-b632-978aedc5148f-16704267605c6980bb-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_4_2x_71fb4f16-87a2-4bf7-9fc6-2b7f5685e916.png",
+            "title": "TITANIUM",
+            "text": "<p>Titanium infused Visco foam features good heat conductivity, keeping body cool at night.<br\/>The layer is also highly pressure relieving for great adaptable comfort.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17166328889622__dd819118-aa34-4b45-b632-978aedc5148f-16704267605c6980bb-0",
+        "template--17166328889622__dd819118-aa34-4b45-b632-978aedc5148f-16704267605c6980bb-1",
+        "template--17166328889622__dd819118-aa34-4b45-b632-978aedc5148f-16704267605c6980bb-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -189,6 +245,7 @@
     "2afe831c-8a02-4d4a-9094-40c704e3ff88",
     "multicolumn",
     "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c",
-    "c4bf1dc5-f043-415d-b39c-04acbd29287c"
+    "c4bf1dc5-f043-415d-b39c-04acbd29287c",
+    "dd819118-aa34-4b45-b632-978aedc5148f"
   ]
 }
