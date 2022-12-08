@@ -83,17 +83,17 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
 
-                {%- when 'image' -%}
-                      {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                      <img
-                        srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                        src="{{ block.settings.image | image_url: width: 400 }}"
-                        alt="{{ block.settings.image.alt | escape }}"
-                        loading="lazy"
-                        width="{{ block.settings.image.width }}"
-                        height="{{ block.settings.image.height }}"
-                        style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                      >
+           {%- when 'image' -%}
+             {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+                  <img
+                    srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                    src="{{ block.settings.image | image_url: width: 400 }}"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.image.width }}"
+                    height="{{ block.settings.image.height }}"
+                    style="max-width: min(100%, {{ block.settings.image_width }}px);"
+                  >
         
             {%- when 'heading' -%}
               <h2 class="side-content-with-image-slider__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
