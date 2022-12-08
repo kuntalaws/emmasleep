@@ -172,7 +172,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/emma-sense.png",
-            "image_width": 100
+            "image_width": 250
           }
         },
         "3a2540d9-5493-4695-814b-a069b36eac26": {
@@ -233,7 +233,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/emma-base.png",
-            "image_width": 100
+            "image_width": 250
           }
         },
         "520d5bd8-7673-494c-a3b3-152ef1ae024c": {
