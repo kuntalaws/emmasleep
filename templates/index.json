@@ -328,10 +328,10 @@
         "71a908eb-9a26-49c3-8f9c-e93b2a914fea"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/find_1.jpg",
+        "image1": "shopify:\/\/shop_images\/find_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",

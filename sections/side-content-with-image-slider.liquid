@@ -18,17 +18,17 @@
   <div class="side-content-with-image-slider__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} side-content-with-image-slider__grid--reverse{% endif %}">
     <div class="side-content-with-image-slider__media-item side-content-with-image-slider__media-item--{{ section.settings.desktop_image_width }} side-content-with-image-slider__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div class="side-content-with-image-slider__media side-content-with-image-slider__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}side-content-with-image-slider__media--placeholder placeholder{% endif %}"
-        {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
+        {% if section.settings.height == 'adapt' and section.settings.image1 != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image1.aspect_ratio | times: 100 }}%;"{% endif %}
       >
-        {%- if section.settings.image != blank -%}
+        {%- if section.settings.image1 != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-          {{ section.settings.image | image_url: width: 1500 | image_tag:
+          {{ section.settings.image1 | image_url: width: 1500 | image_tag:
             loading: 'lazy',
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
           }}
         {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {{ 'image1' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
     </div>
