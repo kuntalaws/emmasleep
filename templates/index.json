@@ -287,6 +287,12 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "99bee5e0-fc29-4947-9630-f799d12282de": {
+      "type": "side-content-with-image-slider",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/find_1.jpg"
+      }
     }
   },
   "order": [
@@ -296,6 +302,7 @@
     "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
     "dd819118-aa34-4b45-b632-978aedc5148f",
-    "b7314bd7-e11d-4b13-8c00-653ec7d95591"
+    "b7314bd7-e11d-4b13-8c00-653ec7d95591",
+    "99bee5e0-fc29-4947-9630-f799d12282de"
   ]
 }
