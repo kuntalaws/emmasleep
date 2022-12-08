@@ -261,42 +261,42 @@
     "ed7741f9-df65-4430-89bd-3291f84caa98": {
       "type": "two-column-image-with-content",
       "blocks": {
+        "5151b19e-df88-4f32-9495-7b675362173a": {
+          "type": "caption",
+          "settings": {
+            "caption": "MEET YOUR SLEEPOLOGIST",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Find a Store",
             "heading_size": "h1"
           }
         },
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text": "<p>Be guided by your own expert, because sleep is deeply personal and <br\/>can’t have a one-size-fits-all approach.<\/p>",
             "text_style": "body"
           }
         },
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "SEARCH LOCATIONS",
+            "button_link_1": "#",
             "button_style_secondary_1": false
-          }
-        },
-        "5151b19e-df88-4f32-9495-7b675362173a": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
           }
         }
       },
       "block_order": [
+        "5151b19e-df88-4f32-9495-7b675362173a",
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-0",
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-1",
-        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2",
-        "5151b19e-df88-4f32-9495-7b675362173a"
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/find_2.jpg",
