@@ -280,10 +280,7 @@
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_1": false
           }
         },
         "5151b19e-df88-4f32-9495-7b675362173a": {
@@ -309,7 +306,7 @@
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
