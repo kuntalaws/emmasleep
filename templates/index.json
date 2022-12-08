@@ -291,7 +291,9 @@
     "99bee5e0-fc29-4947-9630-f799d12282de": {
       "type": "side-content-with-image-slider",
       "settings": {
-        "image": "shopify:\/\/shop_images\/find_1.jpg"
+        "image": "shopify:\/\/shop_images\/find_1.jpg",
+        "padding_top": 40,
+        "padding_bottom": 36
       }
     }
   },
