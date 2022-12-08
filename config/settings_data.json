@@ -152,7 +152,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Asset_4.png",
               "image_width": 100,
-              "alignment": "center"
+              "alignment": ""
             }
           },
           "footer-0": {
@@ -161,11 +161,19 @@
               "heading": "Quick links",
               "menu": "footer"
             }
+          },
+          "563d2ec4-b979-4c43-8272-9deaef681a89": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
           }
         },
         "block_order": [
           "bb3817c4-4ab4-4476-8936-e37d44551718",
-          "footer-0"
+          "footer-0",
+          "563d2ec4-b979-4c43-8272-9deaef681a89"
         ],
         "settings": {
           "color_scheme": "background-2",
