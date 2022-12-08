@@ -1324,6 +1324,21 @@
         "image": {
           "label": "Image"
         },
+        "image1": {
+          "label": "Image 1"
+        },
+        "image2": {
+          "label": "Image 2"
+        },
+        "image3": {
+          "label": "Image 3"
+        },
+        "image4": {
+          "label": "Image 4"
+        },
+        "image5": {
+          "label": "Image 5"
+        },
         "height": {
           "options__1": {
             "label": "Adapt to image"
