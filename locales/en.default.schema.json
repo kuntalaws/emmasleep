@@ -1359,6 +1359,22 @@
               "label": "Description"
             }
           }
+        },
+        "heading2": {
+          "name": "Heading 2",
+          "settings": {
+            "heading2": {
+              "label": "Heading 2"
+            }
+          }
+        },
+        "text2": {
+          "name": "Text 2",
+          "settings": {
+            "text2": {
+              "label": "Description 2"
+            }
+          }
         }
       },
       "presets": {
