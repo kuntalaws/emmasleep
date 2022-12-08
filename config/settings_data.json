@@ -168,12 +168,28 @@
               "heading": "",
               "menu": "legal-menu"
             }
+          },
+          "95f31548-c1e7-483b-845f-6dadb09f9861": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
+          },
+          "a368393d-65a8-4431-8552-9beae58eb18e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
           "bb3817c4-4ab4-4476-8936-e37d44551718",
           "footer-0",
-          "bd7aed20-73ee-410b-b723-a77baa00b93b"
+          "bd7aed20-73ee-410b-b723-a77baa00b93b",
+          "95f31548-c1e7-483b-845f-6dadb09f9861",
+          "a368393d-65a8-4431-8552-9beae58eb18e"
         ],
         "settings": {
           "color_scheme": "background-2",
