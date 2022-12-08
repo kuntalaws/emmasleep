@@ -285,12 +285,21 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "5151b19e-df88-4f32-9495-7b675362173a": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-0",
         "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-1",
-        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2"
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2",
+        "5151b19e-df88-4f32-9495-7b675362173a"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/find_2.jpg",
