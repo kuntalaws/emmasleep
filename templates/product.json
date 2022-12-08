@@ -16,7 +16,7 @@
         "18faa884-d0f4-43d7-b05f-944166d98506": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}{{ product.metafields.custom.product_short_description.value }}",
+            "text": "{{ product.metafields.custom.product_short_description.value }}",
             "text_style": "body"
           }
         },
