@@ -8,91 +8,47 @@
         "padding_bottom": 28
       }
     },
-    "521c74c8-11ab-4a91-a493-3be9cdbd460a": {
-      "type": "image-banner",
+    "668f3042-772d-412e-bb10-8198a31da8bc": {
+      "type": "background-with-login-signup-content",
       "blocks": {
-        "template--17169888051478__521c74c8-11ab-4a91-a493-3be9cdbd460a-1670426267decd0a76-0": {
+        "template--17169888051478__668f3042-772d-412e-bb10-8198a31da8bc-1670510519fc595356-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "WANT TO BE A RETAILER?"
           }
         },
-        "template--17169888051478__521c74c8-11ab-4a91-a493-3be9cdbd460a-1670426267decd0a76-1": {
+        "template--17169888051478__668f3042-772d-412e-bb10-8198a31da8bc-1670510519fc595356-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
-            "text_style": "body"
+            "text": "<p>click <a href=\"#\" target=\"_blank\" title=\"#\">here<\/a><\/p>"
           }
         },
-        "template--17169888051478__521c74c8-11ab-4a91-a493-3be9cdbd460a-1670426267decd0a76-2": {
-          "type": "buttons",
+        "883e3fe1-c40d-4e13-b27e-497a9a71ceee": {
+          "type": "heading2",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading2": "Heading 2"
+          }
+        },
+        "880a3255-bbc8-4273-be35-36611722c6c0": {
+          "type": "text2",
+          "settings": {
+            "text2": "<p>Give customers details about the background-with-login-signup-content image(s) or content on the template.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--17169888051478__521c74c8-11ab-4a91-a493-3be9cdbd460a-1670426267decd0a76-0",
-        "template--17169888051478__521c74c8-11ab-4a91-a493-3be9cdbd460a-1670426267decd0a76-1",
-        "template--17169888051478__521c74c8-11ab-4a91-a493-3be9cdbd460a-1670426267decd0a76-2"
+        "template--17169888051478__668f3042-772d-412e-bb10-8198a31da8bc-1670510519fc595356-0",
+        "template--17169888051478__668f3042-772d-412e-bb10-8198a31da8bc-1670510519fc595356-1",
+        "883e3fe1-c40d-4e13-b27e-497a9a71ceee",
+        "880a3255-bbc8-4273-be35-36611722c6c0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/retail_full.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "b6d3ac8e-9215-4904-86bd-398918851cc0": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17169888051478__b6d3ac8e-9215-4904-86bd-398918851cc0-167048318482d7dac4-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "product-collection"
-          }
-        },
-        "template--17169888051478__b6d3ac8e-9215-4904-86bd-398918851cc0-167048318482d7dac4-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "product-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--17169888051478__b6d3ac8e-9215-4904-86bd-398918851cc0-167048318482d7dac4-0",
-        "template--17169888051478__b6d3ac8e-9215-4904-86bd-398918851cc0-167048318482d7dac4-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image": "shopify:\/\/shop_images\/retail_full.jpg"
       }
     }
   },
   "order": [
     "main",
-    "521c74c8-11ab-4a91-a493-3be9cdbd460a",
-    "b6d3ac8e-9215-4904-86bd-398918851cc0"
+    "668f3042-772d-412e-bb10-8198a31da8bc"
   ]
 }
