@@ -51,12 +51,26 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="background-with-login-signup-content__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <h2 class="background-with-login-signup-content__heading" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
           {%- when 'text' -%}
-            <div class="background-with-login-signup-content__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+            <div class="background-with-login-signup-content__text" {{ block.shopify_attributes }}>
               <span>{{ block.settings.text }}</span>
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+    <div class="background-with-login-signup-content__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading2' -%}
+            <h2 class="background-with-login-signup-content__heading" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.heading2 | escape }}</span>
+            </h2>
+          {%- when 'text2' -%}
+            <div class="background-with-login-signup-content__text" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.text2 }}</span>
             </div>
         {%- endcase -%}
       {%- endfor -%}
@@ -90,7 +104,19 @@
       ]
     },
     {
-      "type": "text",
+      "type": "heading2",
+      "name": "t:sections.background-with-login-signup-content.blocks.heading2.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading2",
+          "default": "Heading 2",
+          "label": "t:sections.background-with-login-signup-content.blocks.heading2.settings.heading2.label"
+        }
+      ]
+    },
+    {
+      "type": "text2",
       "name": "t:sections.background-with-login-signup-content.blocks.text.name",
       "settings": [
         {
@@ -98,6 +124,18 @@
           "id": "text",
           "default": "<p>Give customers details about the background-with-login-signup-content image(s) or content on the template.</p>",
           "label": "t:sections.background-with-login-signup-content.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.background-with-login-signup-content.blocks.text2.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text2",
+          "default": "<p>Give customers details about the background-with-login-signup-content image(s) or content on the template.</p>",
+          "label": "t:sections.background-with-login-signup-content.blocks.text2.settings.text2.label"
         }
       ]
     }
