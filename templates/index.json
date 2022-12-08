@@ -168,35 +168,52 @@
     "7a98096c-9768-4db4-8166-6307cc601af4": {
       "type": "side-content-with-image-slider",
       "blocks": {
+        "e59327fe-d275-4896-9760-6fcb2e5accb0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/emma-sense.png",
+            "image_width": 100
+          }
+        },
+        "3a2540d9-5493-4695-814b-a069b36eac26": {
+          "type": "caption",
+          "settings": {
+            "caption": "THE NEW DEFINITION OF SLEEP COMFORT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
         "template--17166328889622__7a98096c-9768-4db4-8166-6307cc601af4-167050961739c678e2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Interactive and automatic",
             "heading_size": "h1"
           }
         },
         "template--17166328889622__7a98096c-9768-4db4-8166-6307cc601af4-167050961739c678e2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>“Contour Interaction” technology, a dynamic system which actively supports and continuously adapts to your body while you sleep. <\/p>",
             "text_style": "body"
           }
         },
         "template--17166328889622__7a98096c-9768-4db4-8166-6307cc601af4-167050961739c678e2-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "SEE COLLECTION",
+            "button_link": "shopify:\/\/products\/sense"
           }
         }
       },
       "block_order": [
+        "e59327fe-d275-4896-9760-6fcb2e5accb0",
+        "3a2540d9-5493-4695-814b-a069b36eac26",
         "template--17166328889622__7a98096c-9768-4db4-8166-6307cc601af4-167050961739c678e2-0",
         "template--17166328889622__7a98096c-9768-4db4-8166-6307cc601af4-167050961739c678e2-1",
         "template--17166328889622__7a98096c-9768-4db4-8166-6307cc601af4-167050961739c678e2-2"
       ],
       "settings": {
-        "image1": "shopify:\/\/shop_images\/home_shift.jpg",
+        "image1": "shopify:\/\/shop_images\/home_sense.jpg",
         "height": "adapt",
         "desktop_image_width": "large",
         "layout": "image_first",
