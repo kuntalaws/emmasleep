@@ -83,7 +83,7 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
 
-{%- if block.settings.image != blank -%}
+                {%- when 'image' -%}
                       {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
                       <img
                         srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
@@ -94,9 +94,6 @@
                         height="{{ block.settings.image.height }}"
                         style="max-width: min(100%, {{ block.settings.image_width }}px);"
                       >
-                    {%- else -%}
-                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-                    {%- endif -%}
         
             {%- when 'heading' -%}
               <h2 class="side-content-with-image-slider__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
