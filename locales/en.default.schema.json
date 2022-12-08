@@ -1160,7 +1160,7 @@
       }
     },
     "two-column-image-with-content": {
-      "name": "Image banner",
+      "name": "Two Column Image With Content",
       "settings": {
         "image": {
           "label": "First image"
