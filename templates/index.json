@@ -312,6 +312,30 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "85485af4-f7d0-47fd-bd06-01dfbee52c9a": {
+      "type": "background-with-login-signup-content",
+      "blocks": {
+        "template--17166328889622__85485af4-f7d0-47fd-bd06-01dfbee52c9a-167050713869769044-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image background-with-login-signup-content"
+          }
+        },
+        "template--17166328889622__85485af4-f7d0-47fd-bd06-01dfbee52c9a-167050713869769044-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the background-with-login-signup-content image(s) or content on the template.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17166328889622__85485af4-f7d0-47fd-bd06-01dfbee52c9a-167050713869769044-0",
+        "template--17166328889622__85485af4-f7d0-47fd-bd06-01dfbee52c9a-167050713869769044-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact.jpg"
+      }
     }
   },
   "order": [
@@ -321,6 +345,7 @@
     "99bee5e0-fc29-4947-9630-f799d12282de",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
     "dd819118-aa34-4b45-b632-978aedc5148f",
-    "ed7741f9-df65-4430-89bd-3291f84caa98"
+    "ed7741f9-df65-4430-89bd-3291f84caa98",
+    "85485af4-f7d0-47fd-bd06-01dfbee52c9a"
   ]
 }
