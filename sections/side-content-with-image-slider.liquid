@@ -82,6 +82,22 @@
       <div id="ImageWithText--{{ section.id }}" class="side-content-with-image-slider__content side-content-with-image-slider__content--{{ section.settings.desktop_content_position }} side-content-with-image-slider__content--desktop-{{ section.settings.desktop_content_alignment }} side-content-with-image-slider__content--mobile-{{ section.settings.mobile_content_alignment }} side-content-with-image-slider__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container">
         {%- for block in section.blocks -%}
           {% case block.type %}
+
+{%- if block.settings.image != blank -%}
+                      {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+                      <img
+                        srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                        src="{{ block.settings.image | image_url: width: 400 }}"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="lazy"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                        style="max-width: min(100%, {{ block.settings.image_width }}px);"
+                      >
+                    {%- else -%}
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                    {%- endif -%}
+        
             {%- when 'heading' -%}
               <h2 class="side-content-with-image-slider__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
