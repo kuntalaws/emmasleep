@@ -8,7 +8,47 @@
 .side-content-with-image-slider .grid__item {
   position: relative;
 }
-
+.side-content-with-image-slider__content img{
+  margin-bottom: 10px;
+  height: auto !important;
+  display: block;
+}
+.side-content-with-image-slider .side-image-slider .slick-dots{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  right: 50px;
+  bottom: 20px;
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.side-content-with-image-slider .side-image-slider .slick-dots li{
+  width: 16px;
+  line-height: 0;
+  display: block;
+  margin: 0;
+}
+.side-content-with-image-slider .side-image-slider .slick-dots li + li{
+  margin-left: 12px;
+}
+.side-content-with-image-slider .side-image-slider .slick-dots li button{
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 100%;
+  background-color: #c7c8c3;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -2000000px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.side-content-with-image-slider .side-image-slider .slick-dots li.slick-active button{
+  background-color: #e7344c;
+}
 
 @media screen and (min-width: 750px) {
   .side-content-with-image-slider .grid--3-col-tablet .grid__item{
@@ -264,6 +304,9 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
+  .side-content-with-image-slider.collapse-corners:not(.side-content-with-image-slider--overlap) .side-content-with-image-slider__grid--reverse .side-content-with-image-slider__media{
+    padding: 0 !important;
+  }
 
   .side-content-with-image-slider.collapse-borders:not(.side-content-with-image-slider--overlap) .grid:not(.side-content-with-image-slider__grid--reverse) .side-content-with-image-slider__content {
     border-left: 0;
@@ -325,12 +368,13 @@
 .side-content-with-image-slider__content .side-content-with-image-slider__text + .button{
   font-size: 10px;
   line-height: 12px;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #e7344c;
   color: #000000;
   padding: 0;
   background: transparent;
   border: 0;
+  border-bottom: 1px solid #e7344c;
   border-radius: 0;
   min-height: 12px;
   min-width: 40px;

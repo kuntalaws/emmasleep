@@ -61,6 +61,8 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
+  </div>
+  <div class="background-with-login-signup-content__content background-with-login-signup-content__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="background-with-login-signup-content__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -76,6 +78,8 @@
       {%- endfor -%}
     </div>
   </div>
+  <div class="overlay-bg-col"></div>
+  <div class="overlay-bg-col"></div>
 </div>
 
 {% schema %}
