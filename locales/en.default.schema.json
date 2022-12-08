@@ -893,6 +893,9 @@
         }
       },
       "settings": {
+        "logo": {
+          "label": "Logo image"
+        },
         "newsletter_enable": {
           "label": "Show email signup"
         },
