@@ -1345,34 +1345,34 @@
       },
       "blocks": {
         "heading": {
-          "name": "Heading",
+          "name": "First Column Heading",
           "settings": {
             "heading": {
-              "label": "Heading"
+              "label": "First Column Heading"
             }
           }
         },
         "text": {
-          "name": "Text",
+          "name": "First Column Text",
           "settings": {
             "text": {
-              "label": "Description"
+              "label": "First Column Description"
             }
           }
         },
         "heading2": {
-          "name": "Heading 2",
+          "name": "Second Column Heading",
           "settings": {
             "heading2": {
-              "label": "Heading 2"
+              "label": "Second Column Heading"
             }
           }
         },
         "text2": {
-          "name": "Text 2",
+          "name": "Second Column Text",
           "settings": {
             "text2": {
-              "label": "Description 2"
+              "label": "Second Column Description"
             }
           }
         }
