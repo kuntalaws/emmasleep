@@ -165,50 +165,6 @@
         "padding_bottom": 0
       }
     },
-    "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-1",
-        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-0",
-        "template--17146360791318__66a9e784-b22c-4f16-a7e9-822cb8d6fb8c-167025596955ab61d2-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/home_shift.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "c4bf1dc5-f043-415d-b39c-04acbd29287c": {
       "type": "custom-bg-with-simple-content",
       "blocks": {
@@ -357,7 +313,6 @@
     "2afe831c-8a02-4d4a-9094-40c704e3ff88",
     "multicolumn",
     "99bee5e0-fc29-4947-9630-f799d12282de",
-    "66a9e784-b22c-4f16-a7e9-822cb8d6fb8c",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
     "dd819118-aa34-4b45-b632-978aedc5148f",
     "b7314bd7-e11d-4b13-8c00-653ec7d95591"
