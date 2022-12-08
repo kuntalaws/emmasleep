@@ -41,8 +41,6 @@
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
           }}
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
       <div class="side-content-with-image-slider__media side-content-with-image-slider__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}side-content-with-image-slider__media--placeholder placeholder{% endif %}"
@@ -55,8 +53,6 @@
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
           }}
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
       <div class="side-content-with-image-slider__media side-content-with-image-slider__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}side-content-with-image-slider__media--placeholder placeholder{% endif %}"
@@ -69,22 +65,18 @@
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
           }}
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
       <div class="side-content-with-image-slider__media side-content-with-image-slider__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}side-content-with-image-slider__media--placeholder placeholder{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image5 != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image5.aspect_ratio | times: 100 }}%;"{% endif %}
       >
-        {%- if section.settings.image1 != blank -%}
+        {%- if section.settings.image5 != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
           {{ section.settings.image5 | image_url: width: 1500 | image_tag:
             loading: 'lazy',
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
           }}
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
     </div>
