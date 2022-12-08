@@ -258,24 +258,24 @@
         "padding_bottom": 24
       }
     },
-    "b7314bd7-e11d-4b13-8c00-653ec7d95591": {
-      "type": "image-banner",
+    "ed7741f9-df65-4430-89bd-3291f84caa98": {
+      "type": "two-column-image-with-content",
       "blocks": {
-        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-0": {
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-0": {
           "type": "heading",
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-1": {
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-1": {
           "type": "text",
           "settings": {
             "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
             "text_style": "body"
           }
         },
-        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-2": {
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -288,9 +288,9 @@
         }
       },
       "block_order": [
-        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-0",
-        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-1",
-        "template--17166328889622__b7314bd7-e11d-4b13-8c00-653ec7d95591-167042675980afbb52-2"
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-0",
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-1",
+        "template--17166328889622__ed7741f9-df65-4430-89bd-3291f84caa98-167050248909337f54-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/find_2.jpg",
@@ -298,7 +298,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -315,6 +315,6 @@
     "99bee5e0-fc29-4947-9630-f799d12282de",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
     "dd819118-aa34-4b45-b632-978aedc5148f",
-    "b7314bd7-e11d-4b13-8c00-653ec7d95591"
+    "ed7741f9-df65-4430-89bd-3291f84caa98"
   ]
 }
