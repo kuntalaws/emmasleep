@@ -162,18 +162,18 @@
               "menu": "footer"
             }
           },
-          "563d2ec4-b979-4c43-8272-9deaef681a89": {
-            "type": "text",
+          "bd7aed20-73ee-410b-b723-a77baa00b93b": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "",
+              "menu": "legal-menu"
             }
           }
         },
         "block_order": [
           "bb3817c4-4ab4-4476-8936-e37d44551718",
           "footer-0",
-          "563d2ec4-b979-4c43-8272-9deaef681a89"
+          "bd7aed20-73ee-410b-b723-a77baa00b93b"
         ],
         "settings": {
           "color_scheme": "background-2",
