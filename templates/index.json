@@ -329,16 +329,18 @@
       ],
       "settings": {
         "image1": "shopify:\/\/shop_images\/find_1.jpg",
-        "height": "adapt",
+        "image2": "shopify:\/\/shop_images\/find_2.jpg",
+        "image3": "shopify:\/\/shop_images\/contact.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 40,
-        "padding_bottom": 36
+        "padding_bottom": 40
       }
     }
   },
