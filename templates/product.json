@@ -98,7 +98,7 @@
     "1670485358d0d89e06": {
       "type": "apps",
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
