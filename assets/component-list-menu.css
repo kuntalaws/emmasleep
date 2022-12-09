@@ -14,8 +14,9 @@
 }
 
 .list-menu__item--active {
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 0.3rem;
+  color: #e7344c;
 }
 
 .list-menu__item--active:hover {
