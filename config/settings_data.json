@@ -162,19 +162,11 @@
               "heading": "",
               "menu": "legal-menu"
             }
-          },
-          "5ec7ea72-aa3d-466a-8f0a-35801b0e4d14": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "bd7aed20-73ee-410b-b723-a77baa00b93b",
-          "5ec7ea72-aa3d-466a-8f0a-35801b0e4d14"
+          "bd7aed20-73ee-410b-b723-a77baa00b93b"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Asset_1_2x_e0c8d832-4a06-4056-a071-9164388d0ecc.png",
