@@ -409,7 +409,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SEARCH LOCATIONS",
-            "button_link_1": "shopify:\/\/pages\/find-store",
+            "button_link_1": "shopify:\/\/pages\/store-locator",
             "button_style_secondary_1": false
           }
         }
@@ -422,17 +422,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/find_2.jpg",
-        "image_2": "shopify:\/\/shop_images\/find_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "image_2": "shopify:\/\/shop_images\/find_1.jpg"
       }
     }
   },
