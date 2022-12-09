@@ -86,7 +86,7 @@
         "products_to_show": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": true,
         "show_rating": false,
@@ -98,7 +98,7 @@
     "1670485358d0d89e06": {
       "type": "apps",
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
