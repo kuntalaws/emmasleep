@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding"
+  class="section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -635,12 +635,12 @@
                         </div>
                       </button>
                       {%- if block.settings.show_dynamic_checkout -%}
-                        {{ form | payment_button }}
+                        <!--{{ form | payment_button }}-->
                       {%- endif -%}
+                      <a href="/pages/find-store" class="find-store-btn">FIND STORE</a>
                     </div>
                   {%- endform -%}
                 </product-form>
-
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
                 {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}

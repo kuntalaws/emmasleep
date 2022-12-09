@@ -645,7 +645,9 @@ h6:empty {
 .link--text {
   color: #000000;
 }
-
+.header .link--text{
+  color: #ffffff;
+}
 .link--text:hover {
   color: #e7344c;
   text-decoration: none;
@@ -2447,6 +2449,7 @@ menu-drawer + .header__search {
 .header__search {
   display: inline-flex;
   line-height: 0;
+  display: none;
 }
 
 .header--top-center > .header__search {
@@ -2461,6 +2464,7 @@ menu-drawer + .header__search {
   .header:not(.header--top-center) * > .header__search,
   .header--top-center > .header__search {
     display: inline-flex;
+    display: none;
   }
 
   .header:not(.header--top-center) > .header__search,
@@ -2701,10 +2705,23 @@ details[open] > .header__menu-item .icon-caret {
   background-color: #ffffff;
   border: 0;
   width: 560px;
-  padding-right: 320px;
+  padding-right: 320px; 
+}
+.list-menu .header__submenu.list-menu{
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+}
+.list-menu .header__submenu.list-menu::after{
+  width: 320px;
+  height: calc(100% - 56px);
+  position: absolute;
+  right: 0;
+  top: 0;
   background-image: url('https://cdn.shopify.com/s/files/1/0555/7010/4598/files/submenu-bg.jpg?v=1670584253');
-  background-position: right -1px;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  content: '';
 }
 .list-menu .header__submenu.list-menu::before{
   content: 'AWAKEN YOUR BEST';
@@ -2724,9 +2741,10 @@ details[open] > .header__menu-item .icon-caret {
 }
 .list-menu .header__submenu.list-menu .header__submenu.list-menu{
   padding: 0;
+  box-shadow: none;
   width: 240px;
-  background: none;
 }
+.list-menu .header__submenu.list-menu .header__submenu.list-menu::after,
 .list-menu .header__submenu.list-menu .header__submenu.list-menu::before{
   display: none;
 }
