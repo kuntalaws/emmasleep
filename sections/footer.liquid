@@ -62,10 +62,7 @@
       {%- if section.blocks.size > 0 -%}
         <div class="footer__blocks-wrapper grid">
           {%- for block in section.blocks -%}
-            <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
-              {%- if block.settings.heading != blank -%}
-                <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
-              {%- endif -%}
+            <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>           
 
               {%- case block.type -%}
                 {%- when 'text' -%}
@@ -150,6 +147,9 @@
                       {%- endif -%}
                     </ul>
                   {%- endif -%}
+                {%- if block.settings.heading != blank -%}
+                <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
+              {%- endif -%}
                   {%- if block.settings.menu != blank -%}
                     <ul class="footer-block__details-content list-unstyled">
                       {%- for link in block.settings.menu.links -%}
