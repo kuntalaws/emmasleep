@@ -871,6 +871,9 @@
         "link_list": {
           "name": "Menu",
           "settings": {
+            "show_social": {
+              "label": "Show Social"
+            },
             "heading": {
               "label": "Heading"
             },
