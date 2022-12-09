@@ -100,8 +100,10 @@
 .product__info-wrapper .product__info-container .price .price__sale{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
   line-height: 20px;
+}
+.product__info-wrapper .product__info-container .price .price__sale span{
+  order: 2;
 }
 .product__info-wrapper .product__info-container .price .price__sale .price-item{
   font-size: 10px;
@@ -110,6 +112,7 @@
 }
 .product__info-wrapper .product__info-container .price .price__sale .price-item.price-item--sale{
   font-size: 20px;
+  order: 1;
 }
 .product__info-wrapper .product__info-container .price .badge.price__badge-sale{
   display: none;
