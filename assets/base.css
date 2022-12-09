@@ -2632,7 +2632,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 10px;
+  padding: 37px 10px;
   text-decoration: none;
   color: #c7c8c3;
 }
@@ -2668,7 +2668,9 @@ details[open]:hover > .header__menu-item {
 details[open] > .header__menu-item .icon-caret {
   transform: rotate(180deg);
 }
-
+.header{
+  padding: 0 50px;
+}
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: #c7c8c3;
@@ -2693,8 +2695,40 @@ details[open] > .header__menu-item .icon-caret {
   box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
-.header__submenu.list-menu {
-  padding: 2.4rem 0;
+.list-menu .header__submenu.list-menu {
+  padding: 24px 0;
+  left: -40px;
+  background-color: #ffffff;
+  border: 0;
+  width: 560px;
+  padding-right: 320px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0555/7010/4598/files/submenu-bg.jpg?v=1670584253');
+  background-position: right -1px;
+  background-repeat: no-repeat;
+}
+.list-menu .header__submenu.list-menu::before{
+  content: 'AWAKEN YOUR BEST';
+  background-color: #c7c8c3;
+  height: 56px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  color: #4b4c48;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 15px;
+  width: 321px;
+}
+.list-menu .header__submenu.list-menu .header__submenu.list-menu{
+  padding: 0;
+  width: 240px;
+  background: none;
+}
+.list-menu .header__submenu.list-menu .header__submenu.list-menu::before{
+  display: none;
 }
 
 .header__submenu .header__submenu {
@@ -2708,12 +2742,32 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu .header__menu-item {
-  justify-content: space-between;
-  padding: 0.8rem 2.4rem;
+  justify-content: flex-start;
+  padding: 6px 50px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
 }
 
 .header__submenu .header__submenu .header__menu-item {
-  padding-left: 3.4rem;
+  padding-left: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #000000;
+}
+.header__submenu .header__submenu .header__menu-item::before{
+  content: '•';
+  margin: 0 5px;
+}
+.header__submenu .header__submenu .header__menu-item:hover{
+  color: #e7344c;
+}
+.header__submenu .header__submenu .header__menu-item.list-menu__item--active{
+  text-decoration: none;
+  color: #e7344c;
 }
 
 .header__menu-item .icon-caret {
@@ -2722,8 +2776,17 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu .icon-caret {
   flex-shrink: 0;
-  margin-left: 1rem;
+  margin-right: 8px;
   position: static;
+  transform: rotate(-90deg);
+  color: #000000;
+  order: 1;
+}
+details[open] > .header__submenu .icon-caret{
+  color: #e7344c;
+}
+.header__submenu .header__menu-item span{
+  order: 2;
 }
 
 header-menu > details,
