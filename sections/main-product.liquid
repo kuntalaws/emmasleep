@@ -25,13 +25,7 @@
       }
     }
   {%- endstyle -%}
-<script>
-  var sizeRadio = document.querySelector('.js product-form__input input[name=Size]');
-sizeRadio.addEventListener('change', function () {
-  var checkedValues = document.querySelector('.js product-form__input input[name=Size]:checked');
-  alert(checkedValues);
-});
-</script>
+
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
