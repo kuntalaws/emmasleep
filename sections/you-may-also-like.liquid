@@ -1,0 +1,84 @@
+{% if product.metafields.custom.related_product %}
+{{ 'component-you-may-also-like.css' | asset_url | stylesheet_tag }}
+<div class="you-may-also-like-in">
+
+      {% assign relatedProducts = product.metafields.custom.related_product.value %}
+      <!-- check at least one recommended product is available --> 
+      {%- liquid 
+        assign has1product = false
+        for prod in relatedProducts
+          if prod.available == true
+            assign has1product = true
+          endif
+        endfor
+
+      -%}
+      {% if has1product %}
+        <{{ section.settings.related_product_heading_size }} class="heading" {{ block.shopify_attributes }}>{{section.settings.related_product_heading}}</{{ section.settings.related_product_heading_size }}>
+        <div class="related-products">
+          <ul class="related-product-list">
+            {% for prod in relatedProducts %}
+                {% if prod.available == true %}
+                {% assign datadelay = forloop.index %}
+                {%- liquid
+                    assign ratio = 1
+                    if prod.media[0].aspect_ratio <= 1
+                      assign ratio = prod.media[0].aspect_ratio
+                    elsif prod.media[0].aspect_ratio
+                      assign ratio = 1                     
+                    endif
+                    if ratio == 0 or ratio == nil
+                      assign ratio = 1
+                    endif                    
+                  -%}
+                    {%- comment -%}
+                    if prod.media[0].aspect_ratio
+                      assign ratio = prod.media[0].aspect_ratio
+                    endif
+                    if ratio == 0 or ratio == nil
+                      assign ratio = 1
+                    endif
+                    {%- endcomment -%}                  
+                <li class="related-product-item">
+                    <a href="{{ prod.url }}" aria-label="{{prod.title}}" title="{{ prod.title }}">
+                        <div class="card">
+                            <div class="ratio" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
+                                <div class="card__media">
+                                    <div class="media media--transparent media--hover-effect">
+                                    {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+                                    <img loading="lazy" class="related-product__image" width="{{prod.media[0].width}}" height="{{prod.media[0].height}}" src="{{ prod.images[0] | img_url: '500x' }}" alt="{{ prod.title }}">
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>                 
+                        <h4 class="related-product-heading">{{ prod.title }}</h4>
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            </ul>  
+        </div>
+      {% endif %}
+</div>
+{% endif %} 
+
+{% schema %}
+{
+    "name": "You May Also Like",
+    "tag": "section",
+    "class": "you-may-also-like",
+    "settings": [
+        {
+            "type": "text",
+            "id": "related_product_heading",
+            "label": "Heading",
+            "default": "You May Also Like:"
+        }
+    ],
+    "presets": [
+      {
+        "name": "You May Also Like"
+      }
+    ]    
+}
+{% endschema %}
