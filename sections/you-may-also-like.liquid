@@ -21,17 +21,12 @@
                 {% if prod.available == true %}
                 <li class="related-product-item">
                     <a href="{{ prod.url }}" aria-label="{{prod.title}}" title="{{ prod.title }}">
-                        <div class="card">
-                            <div class="ratio">
-                                <div class="card__media">
-                                    <div class="media media--transparent media--hover-effect">
-                                    {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-                                    <img loading="lazy" class="related-product__image" width="{{prod.featured_image.width}}" height="{{prod.featured_image.height}}" src="{{ prod.featured_image.src | img_url: '500x' }}" alt="{{ prod.title }}">
-                                    </div>
-                                </div> 
-                            </div> 
-                        </div>                 
+                        <div class="related-product-img-box">
+                          <img loading="lazy" class="related-product__image" width="{{prod.featured_image.width}}" height="{{prod.featured_image.height}}" src="{{ prod.featured_image.src | img_url: '500x' }}" alt="{{ prod.title }}"> 
+                        </div>   
+                        <h6 class="related-product-heading">{{ product.type }}</h6>              
                         <h4 class="related-product-heading">{{ prod.title }}</h4>
+                        {{prod}}
                     </a>
                 </li>
                 {% endif %}

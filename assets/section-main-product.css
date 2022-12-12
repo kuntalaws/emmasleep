@@ -246,6 +246,7 @@ fieldset.product-form__input .form__label {
   cursor: pointer;
   opacity: 0.5;
   min-width: 24px;
+  text-transform: uppercase;
 }
 
 .product-form__input input[type='radio'] + label:after {
@@ -273,10 +274,10 @@ fieldset.product-form__input .form__label {
   border-radius: 100%;
   border: 1px solid #000000;
 }
-.product-form__input input[value='All FOAM'] + label:after{
+.product-form__input input[value='All Foam'] + label:after{
   background-color: #ee8731;
 }
-.product-form__input input[value='HYBRID'] + label:after{
+.product-form__input input[value='Hybrid'] + label:after{
   background-color: #8bcdf7;
 }
 
