@@ -102,10 +102,17 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "a5d8c1e8-5750-4a9d-a33c-91266441ba6f": {
+      "type": "you-may-also-like",
+      "settings": {
+        "related_product_heading": "You May Also Like:"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "a5d8c1e8-5750-4a9d-a33c-91266441ba6f"
   ]
 }
