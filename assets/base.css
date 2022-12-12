@@ -3063,7 +3063,6 @@ details-disclosure > details {
   max-width: 1366px !important;
   margin: 0 auto;
   padding: 40px;
-  border-bottom: 1px solid #fff;
 }
 
 .shopify-section #stockist-widget .stockist-result-list ul>li{
@@ -3107,6 +3106,7 @@ details-disclosure > details {
 .shopify-section #stockist-widget .stockist-query-entry .stockist-search-field{
   border: 0;
   border-bottom: 1px solid #000;
+  background-color: transparent;
   background-image: url(search-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
