@@ -26,16 +26,6 @@
     },
     "1670828867bb0b3d35": {
       "type": "apps",
-      "blocks": {
-        "99be438a-b09e-44c4-8805-5a70d46196f4": {
-          "type": "shopify:\/\/apps\/store-locator-dealer-locator\/blocks\/storeify-storelocator\/e7003487-cc51-4321-9488-2c47c07a5b17",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "99be438a-b09e-44c4-8805-5a70d46196f4"
-      ],
       "settings": {
         "include_margins": true
       }
