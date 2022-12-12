@@ -53,6 +53,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "c47aa48f-acea-4bc6-925a-28d164647fa5": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -64,7 +71,8 @@
         "price",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "c47aa48f-acea-4bc6-925a-28d164647fa5"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -94,17 +102,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "1670485358d0d89e06": {
-      "type": "apps",
-      "settings": {
-        "include_margins": false
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "1670485358d0d89e06"
+    "product-recommendations"
   ]
 }
