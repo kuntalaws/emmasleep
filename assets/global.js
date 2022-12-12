@@ -902,7 +902,13 @@ class VariantRadios extends VariantSelects {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
     });
     var selectedSizeVal = document.querySelector('input[name=Size]:checked').value;
-    jQuery('.size-heading').text(selectedSizeVal);
+    var selectedSizeElem = document.querySelector('.size-heading');
+    selectedSizeElem.textContent = selectedSizeVal;
+
+    var selectedMatVal = document.querySelector('input[name=Material]:checked').value;
+    var selectedMatElem = document.querySelector('.mat-label');
+    selectedMatElem.textContent = selectedMatVal;
+
   }
 }
 

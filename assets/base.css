@@ -3054,3 +3054,98 @@ details-disclosure > details {
   display: block;
   width: 100%;
 }
+
+.size-heading{
+  display: block;
+}
+
+.stockist-widget{
+  max-width: 1366px !important;
+  margin: 0 auto;
+  padding: 40px;
+  border-bottom: 1px solid #fff;
+}
+
+.shopify-section #stockist-widget .stockist-result-list ul>li{
+  border: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+#stockist-widget .stockist-result-list ul>li:nth-child(odd){
+  background: #E7344C;
+}
+
+#stockist-widget .stockist-result-list ul>li:nth-child(even){
+  background: #3A3B37;
+}
+
+#stockist-widget .stockist-list-result .stockist-result-distance{
+  display: none;
+}
+
+.shopify-section #stockist-widget .stockist-list-result>div{
+ padding-left: 0;
+}
+
+.shopify-section #stockist-widget .stockist-list-result .stockist-result-name{
+  font-size: 15pt;
+  margin: 0 0 15px;
+  font-weight: normal;
+}
+
+.shopify-section #stockist-widget .stockist-result > div.stockist-result-address{
+  font-size: 10pt;
+  line-height: 12pt;  
+}
+
+.shopify-section #stockist-widget .stockist-search-form{
+  max-width: 70%;
+  margin: 0 auto 40px;
+}
+
+.shopify-section #stockist-widget .stockist-query-entry .stockist-search-field{
+  border: 0;
+  border-bottom: 1px solid #000;
+  background-image: url(search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 15px;
+  padding: 0 20px;
+}
+
+.shopify-section #stockist-widget .stockist-query-entry .stockist-search-field:focus-visible{
+  box-shadow: none;
+}
+
+.shopify-section #stockist-widget .stockist-query-entry .stockist-search-button button{
+  background: #E7344C;
+  border-radius: 0;
+  margin-left: 20px;
+}
+
+
+@media screen and (min-width: 769px) {
+  .shopify-section #stockist-widget .stockist-icon{
+    font-family: 'Inter', sans-serif;
+    top: 0;
+  }  
+  .shopify-section #stockist-widget .stockist-icon-search:before{
+    content: 'SEARCH FOR LOCATION';
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .shopify-section #stockist-widget .stockist-search-form{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stockist-widget{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .shopify-section #stockist-widget .stockist-result-list ul{
+    margin-right: 0;
+  }
+}
