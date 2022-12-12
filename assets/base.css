@@ -3124,6 +3124,15 @@ details-disclosure > details {
   margin-left: 20px;
 }
 
+.shopify-section #stockist-widget .stockist-horizontal .stockist-side-panel{
+  background: #fff;
+  padding: 7px;
+  padding-right: 0;
+}
+
+.shopify-section #stockist-widget .stockist-horizontal{
+  padding-top: 0;
+}
 
 @media screen and (min-width: 769px) {
   .shopify-section #stockist-widget .stockist-icon{
