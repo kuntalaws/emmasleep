@@ -331,21 +331,8 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
-               <span style="display:block; margin-top:4px;">
-                  {% for option in product.options_with_values %}
-                    {% assign option_in_lowercase = option.name | downcase %}
-                      {% if option_in_lowercase contains 'size' %}
-                          {% for value in option.values %}
-                            {% assign variant_avialable = true %}
-                            {% if product.variants[forloop.index0].available == false  %}
-                              {% assign variant_avialable = false %}                  
-                            {% endif %}
-                    <span class="size-values {% unless variant_avialable %}soldout{% endunless %} text-center">{{ value | escape }}</span>
-                        {% endfor %}      
-                      {% endif %}
-                  {% endfor %}
-               </span>
-            
+               {%- assign current_variant = product.selected_or_first_available_variant -%}
+                {{ current_variant }}
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
