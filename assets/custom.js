@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-  $('.js product-form__input input').on('change', function() {
+  jQuery(document).on('change', '.js product-form__input input[name=Size]', function() {
     alert($('input[name=Size]:checked').val());
   });
 });
