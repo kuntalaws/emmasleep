@@ -23,10 +23,27 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "1670828867bb0b3d35": {
+      "type": "apps",
+      "blocks": {
+        "99be438a-b09e-44c4-8805-5a70d46196f4": {
+          "type": "shopify:\/\/apps\/store-locator-dealer-locator\/blocks\/storeify-storelocator\/e7003487-cc51-4321-9488-2c47c07a5b17",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "99be438a-b09e-44c4-8805-5a70d46196f4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "19a02a56-129d-4e65-a87e-ad71c1bb9443"
+    "19a02a56-129d-4e65-a87e-ad71c1bb9443",
+    "1670828867bb0b3d35"
   ]
 }
