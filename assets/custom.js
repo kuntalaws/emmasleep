@@ -1,5 +1,5 @@
 
-var sizeRadio = document.querySelector('.js product-form__input input[name=Size]');
+var sizeRadio = document.querySelector('.js product-form__input');
 console.log(sizeRadio)
 sizeRadio.addEventListener('change', function () {
   alert('aaaa')
