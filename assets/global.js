@@ -901,7 +901,8 @@ class VariantRadios extends VariantSelects {
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
     });
-    console.log(document.querySelector('input[name=Size]:checked').value);
+    var selectedSizeVal = document.querySelector('input[name=Size]:checked').value;
+    jQuery('.size-heading').text(selectedSizeVal);
   }
 }
 
