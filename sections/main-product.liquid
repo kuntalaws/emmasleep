@@ -331,6 +331,7 @@
                     {{ product.title | escape }}
                   </h2>
                 </a>
+                {{product.options_with_values | json}}
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
