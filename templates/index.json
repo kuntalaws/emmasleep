@@ -424,6 +424,12 @@
         "image": "shopify:\/\/shop_images\/find_2.jpg",
         "image_2": "shopify:\/\/shop_images\/find_1.jpg"
       }
+    },
+    "b66a2b8d-448e-43fe-9143-8e5786b6c8e3": {
+      "type": "video-background",
+      "settings": {
+        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08b6d40aa6304cd69c3c2a3e4c00ddd6.mp4"
+      }
     }
   },
   "order": [
@@ -435,6 +441,7 @@
     "d6ba1aac-098b-4de2-905a-20dd9ac9ed79",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
     "dd819118-aa34-4b45-b632-978aedc5148f",
-    "ed7741f9-df65-4430-89bd-3291f84caa98"
+    "ed7741f9-df65-4430-89bd-3291f84caa98",
+    "b66a2b8d-448e-43fe-9143-8e5786b6c8e3"
   ]
 }
