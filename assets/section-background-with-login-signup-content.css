@@ -59,6 +59,10 @@
   .background-with-login-signup-content--content-align-mobile-left .background-with-login-signup-content__box {
     text-align: left;
   }
+  .background-with-login-signup-content__box{
+    min-width: 300px;
+    max-width: 300px;
+  }
 }
 
 @media only screen and (min-width: 750px) {
@@ -482,4 +486,34 @@
 
 .background-with-login-signup-content__box > * + .background-with-login-signup-content__buttons {
   margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 989px) {
+  .background-with-login-signup-content__box{
+    min-width: 300px;
+    max-width: 300px;
+  }
+  .background-with-login-signup-content__content{
+    min-height: 400px;
+    height: calc(100vh - 187px - 64px);
+  }
+  .background-with-login-signup-content__content::before{
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .background-with-login-signup-content__content{
+    min-height: 240px;
+    height: 240px;
+    justify-content: center;
+  }
+  .background-with-login-signup-content__content + .background-with-login-signup-content__content{
+    justify-content: center;
+  }
+  .background-with-login-signup-content__box{
+    padding: 20px;
+    background-color: #ffffff !important;
+  }
+ 
 }

@@ -3112,6 +3112,19 @@ details-disclosure > details {
   background-position: 0 center;
   background-size: 15px;
   padding: 0 20px;
+  color: #000000;
+}
+.shopify-section #stockist-widget .stockist-query-entry .stockist-search-field::-webkit-input-placeholder{
+  color: #000000;
+  opacity: 1;
+}
+.shopify-section #stockist-widget .stockist-query-entry .stockist-search-field:-ms-input-placeholder{
+  color: #000000;
+  opacity: 1;
+}
+.shopify-section #stockist-widget .stockist-query-entry .stockist-search-field::placeholder{
+  color: #000000;
+  opacity: 1;
 }
 
 .shopify-section #stockist-widget .stockist-query-entry .stockist-search-field:focus-visible{
