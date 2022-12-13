@@ -243,3 +243,9 @@
     display: list-item;
   }
 }
+@media screen and (max-width: 989px) {
+  .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -168,6 +168,13 @@
   .banner--stacked .banner__media {
     flex-direction: column;
   }
+  .banner h2.banner__heading,
+  .banner .banner__text.subtitle{
+    color: #000000;
+  }
+  .banner .banner__box{
+    padding: 20px;
+  }
 }
 
 .banner__media {

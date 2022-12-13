@@ -39,3 +39,17 @@
   color: #e7344c;
   text-decoration: none;
 }
+
+.product-card-wrapper .card .card__inner .card__content{
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .product-recommendations .product-grid{
+    column-gap: 0;
+    row-gap: 10px;
+  }
+  .product-recommendations .product-grid .grid__item{
+    width: 100%;
+    max-width: 100%;
+  }
+}

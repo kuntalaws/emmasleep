@@ -70,3 +70,22 @@
 .two-column-image-with-content .two-column-image-with-content__media > img{
   position: relative !important;
 }
+
+@media screen and (max-width: 989px) {
+  .two-column-image-with-content .two-column-image-with-content__media.two-column-image-with-content__media-half{
+    width: 100%;
+  }
+  .two-column-image-with-content .two-column-image-with-content__content{
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+    transform: translate(-50%, -50%);
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .two-column-image-with-content .two-column-image-with-content__content{
+    width: 100%;
+  }
+}

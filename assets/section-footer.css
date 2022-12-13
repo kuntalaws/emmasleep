@@ -510,10 +510,7 @@ noscript .localization-selector.link {
 }
 
 @media screen and (max-width: 989px) {
-  .footer-block__details-content .list-menu__item--link {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+
 }
 
 @media screen and (min-width: 750px) {
@@ -525,6 +522,23 @@ noscript .localization-selector.link {
 @media screen and (max-width: 749px) {
   .footer-block-image {
     text-align: center;
+  }
+  .footer .footer__content-top.grid{
+    padding: 0 20px;
+  }
+  .footer__content-top .footer-logo-grid{
+    width: 100%;
+  }
+  .footer__content-top .footer__blocks-wrapper{
+    width: 100%;
+  }
+  .footer__content-top .footer__blocks-wrapper .grid__item{
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+  }
+  .footer-block__details-content{
+    margin: 0;
   }
 }
 

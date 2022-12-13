@@ -2638,7 +2638,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 37px 10px;
   text-decoration: none;
-  color: #c7c8c3;
+  color: #ffffff;
 }
 
 .header__menu-item:hover {
@@ -3157,4 +3157,48 @@ details-disclosure > details {
   .shopify-section #stockist-widget .stockist-result-list ul{
     margin-right: 0;
   }
+}
+@media screen and (max-width: 1280px) {
+  .header{
+    padding: 0 20px;
+  }
+  .list-menu__item{
+    font-size: 13px;
+  }
+  .list-menu .header__submenu.list-menu{
+    left: -10px;
+  }
+  .header__submenu .header__menu-item{
+    padding: 6px 20px;
+    font-size: 13px;
+  }
+  .header__submenu .header__submenu .header__menu-item{
+    padding-left: 34px;
+  }
+  .side-content-with-image-slider__text-item .side-content-with-image-slider__content{
+    padding: 20px;
+  }
+  .stockist-widget{
+    padding: 20px;
+  }
+  .product--medium:not(.product--no-media) .product__info-wrapper, 
+  .product--small:not(.product--no-media) .product__media-wrapper{
+    padding: 12px 20px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .page-width{
+    padding: 0 20px;
+  }
+  .header{
+    padding: 10px 20px !important;
+  }
+  .header__heading-logo{
+    max-width: 120px !important;
+  }  
+  .grid--1-col-tablet-down .grid__item{
+    padding-bottom: 20px;
+  }
+  
 }
