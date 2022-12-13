@@ -1,12 +1,9 @@
 {
   "sections": {
-    "d106b95a-63b4-4591-bfab-453814f0149f": {
-      "type": "custom-liquid",
+    "b66a2b8d-448e-43fe-9143-8e5786b6c8e3": {
+      "type": "video-background",
       "settings": {
-        "custom_liquid": "<div class=\"video-container\"><video width=\"100%\" poster=\"http:\/\/content.bitsontherun.com\/thumbs\/bkaovAYt-320.jpg\" autoplay loop muted=\"\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08b6d40aa6304cd69c3c2a3e4c00ddd6.mp4\">\n        <p class=\"warning\">Your browser does not support HTML5 video.<\/p>\n<\/video><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08b6d40aa6304cd69c3c2a3e4c00ddd6.mp4"
       }
     },
     "2afe831c-8a02-4d4a-9094-40c704e3ff88": {
@@ -424,16 +421,10 @@
         "image": "shopify:\/\/shop_images\/find_2.jpg",
         "image_2": "shopify:\/\/shop_images\/find_1.jpg"
       }
-    },
-    "b66a2b8d-448e-43fe-9143-8e5786b6c8e3": {
-      "type": "video-background",
-      "settings": {
-        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08b6d40aa6304cd69c3c2a3e4c00ddd6.mp4"
-      }
     }
   },
   "order": [
-    "d106b95a-63b4-4591-bfab-453814f0149f",
+    "b66a2b8d-448e-43fe-9143-8e5786b6c8e3",
     "2afe831c-8a02-4d4a-9094-40c704e3ff88",
     "multicolumn",
     "99bee5e0-fc29-4947-9630-f799d12282de",
@@ -441,7 +432,6 @@
     "d6ba1aac-098b-4de2-905a-20dd9ac9ed79",
     "c4bf1dc5-f043-415d-b39c-04acbd29287c",
     "dd819118-aa34-4b45-b632-978aedc5148f",
-    "ed7741f9-df65-4430-89bd-3291f84caa98",
-    "b66a2b8d-448e-43fe-9143-8e5786b6c8e3"
+    "ed7741f9-df65-4430-89bd-3291f84caa98"
   ]
 }
