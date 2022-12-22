@@ -60,6 +60,13 @@
             "text": "",
             "text_style": "body"
           }
+        },
+        "658083a7-7f53-4003-9248-bb10bbb93254": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -72,7 +79,8 @@
         "buy_buttons",
         "description",
         "share",
-        "c47aa48f-acea-4bc6-925a-28d164647fa5"
+        "c47aa48f-acea-4bc6-925a-28d164647fa5",
+        "658083a7-7f53-4003-9248-bb10bbb93254"
       ],
       "settings": {
         "enable_sticky_info": true,
