@@ -232,6 +232,9 @@ fieldset.product-form__input .form__label {
   flex-wrap: wrap;
   justify-content: center;
 }
+.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type{
+  display: none;
+}
 .product__info-wrapper .product__info-container variant-radios .product-form__input legend.form__label{
   display: none;
 }
@@ -284,7 +287,8 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio']:checked + label {
   opacity: 1;
 }
-.product__info-wrapper .product__info-container button.product-form__submit{
+.product__info-wrapper .product__info-container button.product-form__submit,
+.product__info-wrapper .product__info-container button.mattress-size-btn{
   height: 40px;
   font-size: 10px;
   line-height: 12px;
@@ -296,6 +300,7 @@ fieldset.product-form__input .form__label {
   align-items: center;
   align-content: center;
   min-height: 40px;
+  margin-bottom: 15px;
 }
 .product__info-wrapper .product__info-container .find-store-btn{
   width: 100%;
@@ -1365,4 +1370,11 @@ a.product__text {
   width: 1.2rem;
   margin-left: 1.2rem;
   flex-shrink: 0;
+}
+
+.product .product__media-wrapper .product__media-list li.product__media-item:first-child{
+  display: none !important;
+}
+.product .product__media-wrapper .thumbnail-slider .thumbnail-list li.thumbnail-list__item:first-child{
+  display: none !important;
 }
