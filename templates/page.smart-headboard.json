@@ -99,6 +99,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "64a5979e-ecac-41e8-8c6c-0ca89f537ae0": {
+      "type": "smart-simple-content",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -106,6 +113,7 @@
     "5c042728-44b8-4602-b4f9-da91cd684432",
     "4fb44a48-9f52-47a3-a758-be54c5e07e45",
     "1358189c-7a88-4070-8797-2e6685b9a1a3",
-    "f46e05cd-9caf-465c-a07f-a58dd0a5413a"
+    "f46e05cd-9caf-465c-a07f-a58dd0a5413a",
+    "64a5979e-ecac-41e8-8c6c-0ca89f537ae0"
   ]
 }
