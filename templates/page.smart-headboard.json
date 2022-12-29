@@ -50,11 +50,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e5aa1aee-1642-4bc9-9cca-110512709caa": {
+      "type": "smart-side-image-with-content",
+      "blocks": {
+        "template--17369834160406__e5aa1aee-1642-4bc9-9cca-110512709caa-167234150259b9df98-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--17369834160406__e5aa1aee-1642-4bc9-9cca-110512709caa-167234150259b9df98-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--17369834160406__e5aa1aee-1642-4bc9-9cca-110512709caa-167234150259b9df98-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17369834160406__e5aa1aee-1642-4bc9-9cca-110512709caa-167234150259b9df98-0",
+        "template--17369834160406__e5aa1aee-1642-4bc9-9cca-110512709caa-167234150259b9df98-1",
+        "template--17369834160406__e5aa1aee-1642-4bc9-9cca-110512709caa-167234150259b9df98-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/find_2.jpg",
+        "layout": "text_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "fa39171d-3e3b-40c9-903b-6b8b8d6425f9",
-    "0413ff48-8e16-4568-ad6b-d1ded9a25e1b"
+    "0413ff48-8e16-4568-ad6b-d1ded9a25e1b",
+    "e5aa1aee-1642-4bc9-9cca-110512709caa"
   ]
 }
