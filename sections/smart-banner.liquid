@@ -15,9 +15,9 @@
 {%- endstyle -%}
 <div class="smart-banner">
   <div class="smart-banner-inn">
-    {%- if section.settings.image != blank -%}
+    {%- if section.settings.image_banner != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-          {{ section.settings.image | image_url: width: 1500 | image_tag:
+          {{ section.settings.image_banner | image_url: width: 1500 | image_tag:
             loading: 'lazy',
             sizes: sizes,
             widths: '165, 360, 535, 750, 1070, 1500'
@@ -35,7 +35,7 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "image",
+      "id": "image_banner",
       "label": "Select Image"
     },    
     {
