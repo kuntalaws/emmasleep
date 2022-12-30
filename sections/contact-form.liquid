@@ -56,6 +56,7 @@
             spellcheck="false"
             autocapitalize="off"
             value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            required
             aria-required="true"
             {% if form.errors contains 'email' %}
               aria-invalid="true"
@@ -87,6 +88,12 @@
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">Message</label>
+      </div>
+      <div class="field__privacy">
+        
+        <label class="form__label__check" for="ContactForm-privacy"><input type="checkbox" id="ContactForm-privacy"
+          class="field__input__check" required
+          name="contact[privacy]" /> We are commited to protecting your data. Learn how in our Privacy Policy.</label>
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
