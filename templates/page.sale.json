@@ -47,12 +47,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "85a2011b-b007-4b62-9651-495f8401974e": {
+      "type": "sale-side-image-with-content",
+      "blocks": {
+        "template--17386385604886__85a2011b-b007-4b62-9651-495f8401974e-1672473807552565af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smartphone + Bedroom?"
+          }
+        },
+        "template--17386385604886__85a2011b-b007-4b62-9651-495f8401974e-1672473807552565af-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Blue-light exposure, Social media usage, FOMO and more, are proven to reduce one’s quality of sleep. Yet there is an <strong>ever increasing number of people sleeping with their phone right next to them<\/strong> at all times.<br\/><br\/>At the same time - telling you to leave your phone completely out of the bedroom is no simple task. You rely on it for checking the time, waking you up in the morning, winding-down at night, and much more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17386385604886__85a2011b-b007-4b62-9651-495f8401974e-1672473807552565af-0",
+        "template--17386385604886__85a2011b-b007-4b62-9651-495f8401974e-1672473807552565af-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/smart-bedroom.jpg",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "b24d553d-b478-42ea-8a84-7cdab233ebc7",
     "fbdfa4cf-c281-4f64-8604-4ede85a39b74",
-    "e558a763-9747-4719-bea7-434a9a737a9f"
+    "e558a763-9747-4719-bea7-434a9a737a9f",
+    "85a2011b-b007-4b62-9651-495f8401974e"
   ]
 }
