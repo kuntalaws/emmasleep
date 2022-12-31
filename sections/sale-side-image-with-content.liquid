@@ -1,4 +1,4 @@
-{{ 'component-smart-side-image-with-content.css' | asset_url | stylesheet_tag }}
+{{ 'component-sale-side-image-with-content.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -13,9 +13,9 @@
     }
   }
 {%- endstyle -%}
-<div class="smart-side-image-with-content">
-  <div class="smart-side-image-with-content-inn {% if section.settings.layout == 'text_first' %} smart-side-image-with-content__grid--reverse{% endif %}">
-    <div class="smart-side-image-with-content-media">
+<div class="sale-side-image-with-content">
+  <div class="sale-side-image-with-content-inn {% if section.settings.layout == 'text_first' %} reverse{% endif %}">
+    <div class="sale-side-image-with-content-media">
       {%- if section.settings.image != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
           {{ section.settings.image | image_url: width: 1500 | image_tag:
@@ -27,15 +27,15 @@
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
     </div>
-    <div class="smart-side-image-with-content-text">
+    <div class="sale-side-image-with-content-text">
       {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h2 class="smart-side-image-with-content__heading" {{ block.shopify_attributes }}>
+              <h2 class="sale-side-image-with-content__heading" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
               </h2>
             {%- when 'text' -%}
-              <div class="smart-side-image-with-content__text" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              <div class="sale-side-image-with-content__text" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
@@ -50,7 +50,7 @@
 
 {% schema %}
 {
-  "name": "Smart Side Image Content",
+  "name": "Sale Side Image Content",
   "class": "section",
   "settings": [
     {
@@ -147,7 +147,7 @@
   ],
   "presets": [
     {
-      "name": "Smart Side Image Content",
+      "name": "Sale Side Image Content",
       "blocks": [
         {
           "type": "heading"
