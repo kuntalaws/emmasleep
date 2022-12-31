@@ -109,21 +109,14 @@
           "settings": {
             "text": "<p>The Smart Headboard works with the CSA Matter connectivity protocol, an <strong>industry–unifying standard that is a promise of reliable, secure connectivity<\/strong>. It is a seal of approval that devices will work seamlessly together – today and tomorrow.<\/p>\n<p>Connecting your Philips Hue, SONOS Speakers, and more is a simple task with the Smart Headboard. This connectivity also future-proofs the product, connecting with more and more Smart products around the bedroom that vsn benefit your sleep hygiene.<\/p>"
           }
-        },
-        "template--17386385604886__aca2b9c7-706d-4025-9316-09e6cb9bf12c-16724855198c6ab1c9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--17386385604886__aca2b9c7-706d-4025-9316-09e6cb9bf12c-16724855198c6ab1c9-0",
-        "template--17386385604886__aca2b9c7-706d-4025-9316-09e6cb9bf12c-16724855198c6ab1c9-1",
-        "template--17386385604886__aca2b9c7-706d-4025-9316-09e6cb9bf12c-16724855198c6ab1c9-2"
+        "template--17386385604886__aca2b9c7-706d-4025-9316-09e6cb9bf12c-16724855198c6ab1c9-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/future-proof.jpg",
         "layout": "image_first",
         "padding_top": 36,
         "padding_bottom": 36
