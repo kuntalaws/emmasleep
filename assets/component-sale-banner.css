@@ -1,0 +1,36 @@
+.sale-banner{
+     width: 100%;
+     display: block;
+     padding: 40px 15px;
+}
+.sale-banner .sale-banner-inn{
+     width: 100%;
+     max-width: 1312px;
+     margin: 0 auto;
+     border-radius: 8px;
+     display: block;
+     overflow: hidden;
+}
+.sale-banner .sale-banner-inn img{
+     width: 100%;
+     height: auto;
+     display: block;
+}
+
+@media screen and (max-width: 1023px) {
+     .sale-banner{
+          padding: 20px 15px;
+     }
+}
+@media screen and (max-width: 767px) {
+     .sale-banner{
+          padding: 0 0 20px 0;
+     }
+     .sale-banner .sale-banner-inn{
+          border-radius: 0;
+     }
+     .sale-simple-content .sale-simple-content-inn h2{
+          font-size: 24px;
+          line-height: 28px;
+     }
+}

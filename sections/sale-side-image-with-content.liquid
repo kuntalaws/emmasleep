@@ -1,18 +1,5 @@
 {{ 'component-sale-side-image-with-content.css' | asset_url | stylesheet_tag }}
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
 <div class="sale-side-image-with-content">
   <div class="sale-side-image-with-content-inn {% if section.settings.layout == 'text_first' %} reverse{% endif %}">
     <div class="sale-side-image-with-content-media">
@@ -70,31 +57,7 @@
       ],
       "default": "image_first",
       "label": "Show Image First"
-    },
-    {
-      "type": "header",
-      "content": "Section Padding"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "Top Padding",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "Bottom Padding",
-      "default": 36
-    }
+    }    
   ],
   "blocks": [
     {
