@@ -1,4 +1,4 @@
-{{ 'component-smart-banner.css' | asset_url | stylesheet_tag }}
+{{ 'component-sale-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -13,8 +13,8 @@
     }
   }
 {%- endstyle -%}
-<div class="smart-banner">
-  <div class="smart-banner-inn">
+<div class="sale-banner">
+  <div class="sale-banner-inn">
     {%- if section.settings.image_banner != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
           {{ section.settings.image_banner | image_url: width: 1500 | image_tag:
@@ -30,7 +30,7 @@
 
 {% schema %}
 {
-  "name": "Smart Banner",
+  "name": "Sale Banner",
   "class": "section",
   "settings": [
     {
@@ -61,7 +61,7 @@
   ],
   "presets": [
     {
-      "name": "Smart Banner"
+      "name": "Sale Banner"
     }
   ]
 }
