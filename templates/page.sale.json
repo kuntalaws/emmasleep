@@ -74,6 +74,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "67e24408-01c5-47ce-ad53-3b7226e4b2b8": {
+      "type": "sale-side-image-with-content",
+      "blocks": {
+        "template--17386385604886__67e24408-01c5-47ce-ad53-3b7226e4b2b8-1672473807552565af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "“One last Look”"
+          }
+        },
+        "template--17386385604886__67e24408-01c5-47ce-ad53-3b7226e4b2b8-1672473807552565af-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>The temptation to take ‘one last look’ at our phones can be overwhelming, even if you only intended to set an alarm or check the weather.<br\/>By bringing these core-functions out of the phone and into the space, this temptation disappears entirely:<br\/> <br\/>Set your alarm, and wake up with sound, light, or a custom-message - be it the weather, a note from a loved one, an inspiring quote - anything.<br\/>Set up a sleep routine to wind down in the evening, with dimming lights, relaxing sounds, or simply playing your favorite music\/podcast.<br\/>Always accessible at a moment’s notice - but only there when you need it. <\/li><\/ul>"
+          }
+        },
+        "template--17386385604886__67e24408-01c5-47ce-ad53-3b7226e4b2b8-1672473807552565af-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17386385604886__67e24408-01c5-47ce-ad53-3b7226e4b2b8-1672473807552565af-0",
+        "template--17386385604886__67e24408-01c5-47ce-ad53-3b7226e4b2b8-1672473807552565af-1",
+        "template--17386385604886__67e24408-01c5-47ce-ad53-3b7226e4b2b8-1672473807552565af-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/one-last-look.jpg",
+        "layout": "text_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -81,6 +116,7 @@
     "b24d553d-b478-42ea-8a84-7cdab233ebc7",
     "fbdfa4cf-c281-4f64-8604-4ede85a39b74",
     "e558a763-9747-4719-bea7-434a9a737a9f",
-    "85a2011b-b007-4b62-9651-495f8401974e"
+    "85a2011b-b007-4b62-9651-495f8401974e",
+    "67e24408-01c5-47ce-ad53-3b7226e4b2b8"
   ]
 }
