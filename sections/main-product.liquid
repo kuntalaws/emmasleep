@@ -341,7 +341,7 @@
                 {% endif %}
               </div>
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden pr-price" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               </div>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
@@ -697,6 +697,16 @@
               </div>
 
               <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+              <script>
+                window.addEventListener("DOMContentLoaded", function() {
+                  jQuery(document).on("click",".mattress-size-btn",function (e) {
+                    jQuery('variant-radios .product-form__input:last-of-type').toggleClass('open');
+                  });
+                  jQuery(document).on("click",".product-form__input label",function (e) {
+                    jQuery('.product-form__input').removeClass('open');
+                  });
+                });
+              </script>
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid

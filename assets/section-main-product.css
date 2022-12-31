@@ -88,7 +88,7 @@
 
 }
 .product__info-wrapper .product__info-container .product__title{
-
+  margin-bottom: 15px;
 }
 .product__info-wrapper .product__info-container .product__title h1{
   font-size: 20px;
@@ -96,6 +96,15 @@
   text-transform: uppercase;
   letter-spacing: 0;
   color: #000000;
+}
+.product__info-wrapper .product__info-container .short-description{
+  margin-bottom: 15px;
+}
+.product__info-wrapper .product__info-container .rating{
+  margin-bottom: 15px;
+}
+.product__info-wrapper .product__info-container .product__text{
+  margin-bottom: 15px;
 }
 .product__info-wrapper .product__info-container .price .price__sale{
   display: flex;
@@ -227,14 +236,18 @@ fieldset.product-form__input .form__label {
   height: 1px;
   width: 1px;
 }
+.product__info-wrapper .product__info-container variant-radios{
+  margin: 0;
+  padding-bottom: 15px;
+  position: relative;
+}
 .product__info-wrapper .product__info-container variant-radios .product-form__input{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0;
 }
-.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type{
-  display: none;
-}
+
 .product__info-wrapper .product__info-container variant-radios .product-form__input legend.form__label{
   display: none;
 }
@@ -286,6 +299,50 @@ fieldset.product-form__input .form__label {
 
 .product-form__input input[type='radio']:checked + label {
   opacity: 1;
+}
+.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 82px;
+  background-color: #ffffff;
+  width: 100%;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease-in-out 0s;
+}
+.product__info-wrapper .product__info-container variant-radios .product-form__input.open{
+  opacity: 1;
+  visibility: visible;
+}
+.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type input[type='radio'] + label{
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0;
+  padding: 10px 15px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.5;
+  min-width: 24px;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type input[type='radio'] + label::before,
+.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type input[type='radio'] + label:after{
+  display: none;
+}
+.product__info-wrapper .product__info-container variant-radios .product-form__input:last-of-type input[type='radio']:checked + label{
+  opacity: 1;
+}
+.product__info-wrapper .product__info-container .pr-price{
+  margin: 0;
+  padding-bottom: 15px;
 }
 .product__info-wrapper .product__info-container button.product-form__submit,
 .product__info-wrapper .product__info-container button.mattress-size-btn{
@@ -422,7 +479,7 @@ fieldset.product-form__input .form__label {
 /* Product info */
 
 .product__info-container > * + * {
-  margin: 1.5rem 0;
+  margin: 0;
 }
 
 .product__info-container iframe {
@@ -431,7 +488,8 @@ fieldset.product-form__input .form__label {
 
 .product__info-container .product-form,
 .product__info-container .product__description {
-  margin: 2.5rem 0;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .product__text {
