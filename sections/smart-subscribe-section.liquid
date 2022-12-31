@@ -1,4 +1,4 @@
-{{ 'component-smart-subscribe.css' | asset_url | stylesheet_tag }}
+{{ 'component-sale-subscribe.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -13,14 +13,14 @@
     }
   }
 {%- endstyle -%}
-<div class="smart-subscribe">
-  <div class="smart-subscribe-inn">
+<div class="sale-subscribe">
+  <div class="sale-subscribe-inn">
     Subscribe
   </div>
 </div>
 {% schema %}
 {
-  "name": "Smart Subscriber",
+  "name": "Sale Subscriber",
   "class": "section",
   "settings": [    
     {
@@ -46,7 +46,7 @@
   ],
   "presets": [
     {
-      "name": "Smart Subscriber"
+      "name": "Sale Subscriber"
     }
   ]
 }
