@@ -8,13 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "fbdfa4cf-c281-4f64-8604-4ede85a39b74": {
-      "type": "smart-subscribe-section",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "b24d553d-b478-42ea-8a84-7cdab233ebc7": {
       "type": "sale-banner",
       "settings": {
@@ -22,11 +15,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "fbdfa4cf-c281-4f64-8604-4ede85a39b74": {
+      "type": "smart-subscribe-section",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e558a763-9747-4719-bea7-434a9a737a9f": {
+      "type": "sale-simple-content",
+      "blocks": {
+        "template--17386385604886__e558a763-9747-4719-bea7-434a9a737a9f-167247380711102219-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calm Design meets the Bedroom"
+          }
+        },
+        "template--17386385604886__e558a763-9747-4719-bea7-434a9a737a9f-167247380711102219-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Access all the convenience of technology in your bed room - without having to sacrifice sleep quality. <br\/>Combining award-winning design with the spirit of Calm Design.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17386385604886__e558a763-9747-4719-bea7-434a9a737a9f-167247380711102219-0",
+        "template--17386385604886__e558a763-9747-4719-bea7-434a9a737a9f-167247380711102219-1"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
+    "b24d553d-b478-42ea-8a84-7cdab233ebc7",
     "fbdfa4cf-c281-4f64-8604-4ede85a39b74",
-    "b24d553d-b478-42ea-8a84-7cdab233ebc7"
+    "e558a763-9747-4719-bea7-434a9a737a9f"
   ]
 }
