@@ -11,9 +11,7 @@
     "b24d553d-b478-42ea-8a84-7cdab233ebc7": {
       "type": "sale-banner",
       "settings": {
-        "image_banner": "shopify:\/\/shop_images\/sale-banner_fdae98df-0d2b-4d21-9a50-12f1ee1b2bbf.jpg",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_banner": "shopify:\/\/shop_images\/MicrosoftTeams-image_5.png"
       }
     },
     "e558a763-9747-4719-bea7-434a9a737a9f": {
@@ -37,8 +35,6 @@
         "template--17386385604886__e558a763-9747-4719-bea7-434a9a737a9f-167247380711102219-1"
       ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "85a2011b-b007-4b62-9651-495f8401974e": {
@@ -63,9 +59,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/smart-bedroom.jpg",
-        "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "image_first"
       }
     },
     "67e24408-01c5-47ce-ad53-3b7226e4b2b8": {
@@ -90,9 +84,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/one-last-look.jpg",
-        "layout": "text_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "text_first"
       }
     },
     "aca2b9c7-706d-4025-9316-09e6cb9bf12c": {
@@ -117,16 +109,12 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/future-proof.jpg",
-        "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "image_first"
       }
     },
     "c58ca893-0c93-4dac-b9e5-e6f72a5bc041": {
       "type": "sale-subscribe-section",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
