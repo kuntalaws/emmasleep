@@ -32,7 +32,7 @@
         "880a3255-bbc8-4273-be35-36611722c6c0": {
           "type": "text2",
           "settings": {
-            "text2": "<p>login <a href=\"#\" target=\"_blank\" title=\"#\">here<\/a><\/p>"
+            "text2": "<p>login <a href=\"https:\/\/accounts.shopify.com\/store-login\" target=\"_blank\" title=\"https:\/\/accounts.shopify.com\/store-login\">here<\/a><\/p>"
           }
         }
       },
