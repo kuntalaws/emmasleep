@@ -5,49 +5,60 @@
     <h2>Interested in taking Your Sleep hygiene to the next level?<br/>
     Sign-up here to stay up-to-date on Mui x Emma’s Smart Sleep product:</h2>
     <div class="subscribe-form">
-        {%- form 'contact', id: 'subscribe', class: 'isolate' -%}
-          {%- if form.posted_successfully? -%}
-            <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2>
-          {%- elsif form.errors -%}
-            <div class="form__message">
-              <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>{% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}</h2>
-            </div>
-            <ul class="form-status-list caption-large" role="list">
-              <li>
-                <a href="#ContactForm-email" class="link">
-                  {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
-                </a>
-              </li>
-            </ul>
-          {%- endif -%}
-        <div class="subscribe-form-field">
-          <input
-            autocomplete="email"
-            type="email"
-            id="subscribe-email"
-            class="field__input"
-            name="subscribe[email]"
-            spellcheck="false"
-            autocapitalize="off"
-            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-            required
-            aria-required="true"
-            {% if form.errors contains 'email' %}
-              aria-invalid="true"
-              aria-describedby="ContactForm-email-error"
-            {% endif %}
-            placeholder="Email address"
-          >
+      {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+        {%- if form.posted_successfully? -%}
+          <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2>
+        {%- elsif form.errors -%}
+          <div class="form__message">
+            <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>{% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}</h2>
+          </div>
+          <ul class="form-status-list caption-large" role="list">
+            <li>
+              <a href="#ContactForm-email" class="link">
+                {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+              </a>
+            </li>
+          </ul>
+        {%- endif -%}
+        <div class="contact__fields">
+          <div class="subscribe-form-field field--with-error">
+            <input
+              autocomplete="email"
+              type="email"
+              id="ContactForm-email"
+              class="field__input"
+              name="contact[email]"
+              spellcheck="false"
+              autocapitalize="off"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              required
+              aria-required="true"
+              {% if form.errors contains 'email' %}
+                aria-invalid="true"
+                aria-describedby="ContactForm-email-error"
+              {% endif %}
+              placeholder="Email address"
+            >
+            {%- if form.errors contains 'email' -%}
+              <small class="contact__field-error" id="ContactForm-email-error">
+                <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                <span class="form__message">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</span>
+              </small>
+            {%- endif -%}
+          </div>
         </div>
         <div class="subscribe-form-field">
-          <label class="subscribe-form-field-label" for="subscribe-privacy"><input type="checkbox" id="subscribe-privacy"
-            class="subscribe-form-field-input-check" required
-            name="subscribe[privacy]" /> <span class="check-text">We are commited to protecting your data. Learn how in our <a href="/pages/privacy">Privacy Policy</a>.</span></label>
+          
+          <label class="subscribe-form-field-label" for="ContactForm-privacy"><input type="checkbox" id="ContactForm-privacy"
+            class="field__input__check" required
+            name="contact[privacy]" /> <span class="check-text">We are commited to protecting your data. Learn how in our <a href="/pages/privacy">Privacy Policy</a>.</span></label>
         </div>
         <div class="subscribe-form-field">
-          <button type="submit" class="subscribe-button"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15.375 9.75004C15.1761 9.75004 14.9853 9.82906 14.8447 9.96971C14.704 10.1104 14.625 10.3011 14.625 10.5V13.5C14.625 13.699 14.546 13.8897 14.4053 14.0304C14.2647 14.171 14.0739 14.25 13.875 14.25H3.375C3.17609 14.25 2.98532 14.171 2.84467 14.0304C2.70402 13.8897 2.625 13.699 2.625 13.5V6.30754L7.035 10.725C7.45593 11.1425 8.02463 11.377 8.6175 11.3775C8.91772 11.3783 9.21505 11.319 9.49198 11.203C9.76891 11.0871 10.0198 10.9169 10.23 10.7025L10.8975 10.0425C11.0002 9.89771 11.0482 9.72113 11.0329 9.54423C11.0177 9.36733 10.9401 9.20158 10.8141 9.07648C10.6881 8.95138 10.5218 8.87504 10.3448 8.86104C10.1678 8.84704 9.9916 8.8963 9.8475 9.00004L9.15 9.68254C9.0098 9.81996 8.82131 9.89693 8.625 9.89693C8.42868 9.89693 8.2402 9.81996 8.1 9.68254L3.6825 5.25004H7.125C7.32391 5.25004 7.51468 5.17102 7.65533 5.03037C7.79598 4.88972 7.875 4.69895 7.875 4.50004C7.875 4.30113 7.79598 4.11036 7.65533 3.96971C7.51468 3.82906 7.32391 3.75004 7.125 3.75004H3.375C2.77826 3.75004 2.20597 3.98709 1.78401 4.40905C1.36205 4.83101 1.125 5.4033 1.125 6.00004V13.5C1.125 14.0968 1.36205 14.6691 1.78401 15.091C2.20597 15.513 2.77826 15.75 3.375 15.75H13.875C14.4717 15.75 15.044 15.513 15.466 15.091C15.8879 14.6691 16.125 14.0968 16.125 13.5V10.5C16.125 10.3011 16.046 10.1104 15.9053 9.96971C15.7647 9.82906 15.5739 9.75004 15.375 9.75004ZM16.1625 3.00004C15.7825 2.63368 15.2962 2.39714 14.7734 2.32437C14.2505 2.25161 13.7181 2.34637 13.2525 2.59504C12.7394 2.31286 12.1419 2.22481 11.5692 2.347C10.9966 2.46919 10.487 2.79345 10.1338 3.26047C9.78056 3.72749 9.60726 4.30607 9.64559 4.89037C9.68391 5.47467 9.9313 6.02566 10.3425 6.44254L12.75 8.78254C12.8937 8.91959 13.0839 8.99728 13.2825 9.00004C13.3812 9.00061 13.4791 8.98169 13.5704 8.94437C13.6618 8.90705 13.7449 8.85205 13.815 8.78254L16.1925 6.40504C16.6311 5.94494 16.8733 5.3321 16.8677 4.69646C16.8621 4.06082 16.6091 3.45235 16.1625 3.00004ZM15.105 5.34004L13.2525 7.19254L11.4075 5.34004C11.3208 5.25189 11.2524 5.14753 11.206 5.03293C11.1597 4.91832 11.1364 4.7957 11.1374 4.67209C11.1395 4.42243 11.2407 4.18383 11.4187 4.00879C11.5968 3.83375 11.837 3.7366 12.0867 3.73871C12.3364 3.74082 12.575 3.84202 12.75 4.02004C12.8197 4.09034 12.9027 4.14613 12.9941 4.18421C13.0855 4.22229 13.1835 4.24189 13.2825 4.24189C13.3815 4.24189 13.4795 4.22229 13.5709 4.18421C13.6623 4.14613 13.7453 4.09034 13.815 4.02004C13.9933 3.85125 14.2295 3.75718 14.475 3.75718C14.7205 3.75718 14.9567 3.85125 15.135 4.02004C15.3033 4.20044 15.3944 4.4395 15.3888 4.68615C15.3832 4.9328 15.2813 5.16748 15.105 5.34004Z" fill="white"/>
-            </svg> Subscribe</button>
+          <button type="submit">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.375 9.75004C15.1761 9.75004 14.9853 9.82906 14.8447 9.96971C14.704 10.1104 14.625 10.3011 14.625 10.5V13.5C14.625 13.699 14.546 13.8897 14.4053 14.0304C14.2647 14.171 14.0739 14.25 13.875 14.25H3.375C3.17609 14.25 2.98532 14.171 2.84467 14.0304C2.70402 13.8897 2.625 13.699 2.625 13.5V6.30754L7.035 10.725C7.45593 11.1425 8.02463 11.377 8.6175 11.3775C8.91772 11.3783 9.21505 11.319 9.49198 11.203C9.76891 11.0871 10.0198 10.9169 10.23 10.7025L10.8975 10.0425C11.0002 9.89771 11.0482 9.72113 11.0329 9.54423C11.0177 9.36733 10.9401 9.20158 10.8141 9.07648C10.6881 8.95138 10.5218 8.87504 10.3448 8.86104C10.1678 8.84704 9.9916 8.8963 9.8475 9.00004L9.15 9.68254C9.0098 9.81996 8.82131 9.89693 8.625 9.89693C8.42868 9.89693 8.2402 9.81996 8.1 9.68254L3.6825 5.25004H7.125C7.32391 5.25004 7.51468 5.17102 7.65533 5.03037C7.79598 4.88972 7.875 4.69895 7.875 4.50004C7.875 4.30113 7.79598 4.11036 7.65533 3.96971C7.51468 3.82906 7.32391 3.75004 7.125 3.75004H3.375C2.77826 3.75004 2.20597 3.98709 1.78401 4.40905C1.36205 4.83101 1.125 5.4033 1.125 6.00004V13.5C1.125 14.0968 1.36205 14.6691 1.78401 15.091C2.20597 15.513 2.77826 15.75 3.375 15.75H13.875C14.4717 15.75 15.044 15.513 15.466 15.091C15.8879 14.6691 16.125 14.0968 16.125 13.5V10.5C16.125 10.3011 16.046 10.1104 15.9053 9.96971C15.7647 9.82906 15.5739 9.75004 15.375 9.75004ZM16.1625 3.00004C15.7825 2.63368 15.2962 2.39714 14.7734 2.32437C14.2505 2.25161 13.7181 2.34637 13.2525 2.59504C12.7394 2.31286 12.1419 2.22481 11.5692 2.347C10.9966 2.46919 10.487 2.79345 10.1338 3.26047C9.78056 3.72749 9.60726 4.30607 9.64559 4.89037C9.68391 5.47467 9.9313 6.02566 10.3425 6.44254L12.75 8.78254C12.8937 8.91959 13.0839 8.99728 13.2825 9.00004C13.3812 9.00061 13.4791 8.98169 13.5704 8.94437C13.6618 8.90705 13.7449 8.85205 13.815 8.78254L16.1925 6.40504C16.6311 5.94494 16.8733 5.3321 16.8677 4.69646C16.8621 4.06082 16.6091 3.45235 16.1625 3.00004ZM15.105 5.34004L13.2525 7.19254L11.4075 5.34004C11.3208 5.25189 11.2524 5.14753 11.206 5.03293C11.1597 4.91832 11.1364 4.7957 11.1374 4.67209C11.1395 4.42243 11.2407 4.18383 11.4187 4.00879C11.5968 3.83375 11.837 3.7366 12.0867 3.73871C12.3364 3.74082 12.575 3.84202 12.75 4.02004C12.8197 4.09034 12.9027 4.14613 12.9941 4.18421C13.0855 4.22229 13.1835 4.24189 13.2825 4.24189C13.3815 4.24189 13.4795 4.22229 13.5709 4.18421C13.6623 4.14613 13.7453 4.09034 13.815 4.02004C13.9933 3.85125 14.2295 3.75718 14.475 3.75718C14.7205 3.75718 14.9567 3.85125 15.135 4.02004C15.3033 4.20044 15.3944 4.4395 15.3888 4.68615C15.3832 4.9328 15.2813 5.16748 15.105 5.34004Z" fill="white"/>
+              </svg> Subscribe
+          </button>
         </div>
         <p><a href="#">How do I unsubcribe?</a></p>
       {%- endform -%}
