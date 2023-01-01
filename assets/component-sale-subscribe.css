@@ -21,6 +21,18 @@
      display: block;
      margin: 0;
 }
+.sale-subscribe .sale-subscribe-inn h3{
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 24px;
+     text-align: center;
+     color: #FFFFFF;
+     margin: 0;
+     text-align: left;
+     padding-bottom: 15px;
+}
 .sale-subscribe .sale-subscribe-inn .subscribe-form{
      width: 100%;
      display: block;
@@ -144,6 +156,7 @@
      width: 18px;
      margin-right: 8px;
 }
+
 .sale-subscribe .sale-subscribe-inn .subscribe-form p{
      font-family: 'Inter';
      font-style: normal;
