@@ -115,7 +115,7 @@
   order: 2;
 }
 .product__info-wrapper .product__info-container .price .price__sale .price-item{
-  font-size: 10px;
+  font-size: 14px;
   line-height: 20px;
   display: block;
 }
