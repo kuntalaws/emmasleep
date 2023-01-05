@@ -62,7 +62,8 @@
 .sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group label.storeify-label-control{
      display: none;
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field input[type="email"]{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field input[type="email"],
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group input[type="email"]{
      width: 100%;
      height: 48px;
      border: 1px solid #FFFFFF;
