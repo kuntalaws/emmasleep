@@ -98,19 +98,23 @@
      opacity: 1;
 }
 
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group .storeify-form-checkbox{
      position: relative;
      display: block;
      margin: 0;
+     padding: 0;
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group .storeify-form-checkbox input{
      position: absolute;
      left: 0;
      top: 0;
      opacity: 0;
      visibility: hidden;
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input + span{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input + span,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group .storeify-form-checkbox input + label{
      display: block;
      padding-left: 32px;
      position: relative;
@@ -123,11 +127,13 @@
      margin: 0;
      cursor: pointer;
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input + span a{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input + span a,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group .storeify-form-checkbox input + label a{
      color: #FFFFFF;
      text-decoration: underline;
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input + span::before{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input + span::before,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group .storeify-form-checkbox input + label:before{
      width: 24px;
      height: 24px;
      border: 1px solid #FFFFFF;
@@ -138,7 +144,8 @@
      top: 0;
      content: '';
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input:checked + span::after{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field .subscribe-form-field-label input:checked + span::after,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group .storeify-form-checkbox input:checked + label:after{
      width: 14px;
      height: 14px;
      background-color: #FFFFFF;
