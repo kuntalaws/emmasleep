@@ -40,14 +40,27 @@
      max-width: 416px;
      margin: 0 auto;
 }
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder{
+      padding: 0;
+}
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-header-frm{
+     display: none;
+}
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-body-frm{
+     margin: 0;
+}
 .sale-subscribe .sale-subscribe-inn .subscribe-form form{
      width: 100%;
      display: block;
 }
-.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field{
+.sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field,
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group{
      width: 100%;
      display: block;
      margin-bottom: 16px;
+}
+.sale-subscribe .sale-subscribe-inn .subscribe-form .storeify-formbuilder .storeify-frm-group label.storeify-label-control{
+     display: none;
 }
 .sale-subscribe .sale-subscribe-inn .subscribe-form .subscribe-form-field input[type="email"]{
      width: 100%;
