@@ -118,10 +118,13 @@
   font-size: 14px;
   line-height: 20px;
   display: block;
+  color: #e7344c;
+  text-decoration-color: #000;
 }
 .product__info-wrapper .product__info-container .price .price__sale .price-item.price-item--sale{
   font-size: 20px;
   order: 1;
+  color: #000;
 }
 .product__info-wrapper .product__info-container .price .badge.price__badge-sale{
   display: none;
