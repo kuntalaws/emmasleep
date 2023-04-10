@@ -27,7 +27,7 @@
     "de744ac2-baab-4ad4-8ca2-f951874714a0": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u14632\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>\n<!-- End Stockist.co widget -->",
+        "custom_liquid": "<iframe src=\"https:\/\/my.atlistmaps.com\/map\/ed2991de-f385-42de-ad54-d560af0794cd?share=true\" allow=\"geolocation 'self' https:\/\/my.atlistmaps.com\" width=\"100%\" height=\"400px\" frameborder=\"0\" scrolling=\"no\" allowfullscreen><\/iframe>",
         "color_scheme": "background-2",
         "padding_top": 40,
         "padding_bottom": 52
