@@ -425,9 +425,9 @@
     "dab97993-515f-4ffc-97a1-6a1d0a880998": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/my.atlistmaps.com\/map\/ed2991de-f385-42de-ad54-d560af0794cd?share=true\" allow=\"geolocation 'self' https:\/\/my.atlistmaps.com\" width=\"100%\" height=\"400px\" frameborder=\"0\" scrolling=\"no\" allowfullscreen><\/iframe>",
+        "custom_liquid": "<iframe src=\"https:\/\/my.atlistmaps.com\/map\/ed2991de-f385-42de-ad54-d560af0794cd?share=true\" allow=\"geolocation 'self' https:\/\/my.atlistmaps.com\" width=\"100%\" height=\"600px\" frameborder=\"0\" scrolling=\"no\" allowfullscreen><\/iframe>",
         "color_scheme": "background-1",
-        "padding_top": 40,
+        "padding_top": 48,
         "padding_bottom": 52
       }
     }
